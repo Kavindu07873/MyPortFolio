@@ -9,6 +9,9 @@ https://github.com/Kavindu07873/MyPortFolio
 000WebHost URL
 https://dkpdetails.000webhostapp.com/
 
+InfinityFree URL
+dilshanportfolio.epizy.com
+
 Site Map URL
 https://www.gloomaps.com/GWyDje7sid
 
