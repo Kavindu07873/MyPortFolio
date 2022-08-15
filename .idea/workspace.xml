@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da8755b6-380d-458a-94e9-c184f787230b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Interface Design.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mobile app development.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sofware development.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Web Development.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -43,7 +39,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/2ND SEMESTER/InternateExplorer/Internet Tecnologie/MyPortFolio/MyPortFolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/work&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -86,7 +82,8 @@
       <workItem from="1660456060247" duration="78000" />
       <workItem from="1660472442273" duration="351000" />
       <workItem from="1660472814286" duration="4473000" />
-      <workItem from="1660530750413" duration="7570000" />
+      <workItem from="1660530750413" duration="8240000" />
+      <workItem from="1660545364811" duration="1289000" />
     </task>
     <servers />
   </component>
