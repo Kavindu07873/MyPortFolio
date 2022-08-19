@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da8755b6-380d-458a-94e9-c184f787230b" name="Changes" comment="" />
+    <list default="true" id="da8755b6-380d-458a-94e9-c184f787230b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +51,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\css" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -93,7 +97,16 @@
       <workItem from="1660723519567" duration="33000" />
       <workItem from="1660873520674" duration="24000" />
       <workItem from="1660873558004" duration="625000" />
-      <workItem from="1660877986332" duration="665000" />
+      <workItem from="1660877986332" duration="1530000" />
+      <workItem from="1660882272132" duration="7000" />
+      <workItem from="1660882687127" duration="244000" />
+      <workItem from="1660882945950" duration="319000" />
+      <workItem from="1660883277458" duration="217000" />
+      <workItem from="1660883869466" duration="1638000" />
+      <workItem from="1660888412203" duration="591000" />
+      <workItem from="1660889109190" duration="1036000" />
+      <workItem from="1660890182806" duration="5000" />
+      <workItem from="1660904097399" duration="5774000" />
     </task>
     <servers />
   </component>
