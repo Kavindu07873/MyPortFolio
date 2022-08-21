@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da8755b6-380d-458a-94e9-c184f787230b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Case_1/case1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Case_1/case1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Case_1/case1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Case_1/case1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Case_1/case1/.idea/work.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Case_1/case1/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Case_1/case1/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Case_1/case1/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Case_1/case1/untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Case_1/case1/untitled/asset/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Case_1/case1/untitled/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_1/case1/untitled/case_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Case_1/case1/untitled/case_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +50,9 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/2ND SEMESTER/InternateExplorer/Assinment/Css/case1",
+    "last_opened_file_path": "E:/2ND SEMESTER/InternateExplorer/Internet Tecnologie/MyPortFolio/MyPortFolio/Assinments/CSS/Case_1",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -51,6 +64,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Case_1" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\css" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets" />
     </key>
@@ -110,6 +124,7 @@
       <workItem from="1661052467139" duration="3944000" />
       <workItem from="1661068825923" duration="12976000" />
       <workItem from="1661092534287" duration="67000" />
+      <workItem from="1661097655268" duration="1528000" />
     </task>
     <servers />
   </component>
