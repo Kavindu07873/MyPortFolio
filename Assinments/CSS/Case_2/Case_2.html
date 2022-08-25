@@ -5,64 +5,100 @@
     <title>Case2</title>
             <style>
 
-                header{
-                    position: relative;
-                    width: 90vw;
-                    height: 10vh;
-                    background-color: #ff253a;
-                    border: 6px solid black;
-                }
-                header>section:first-child{
-                    position: relative;
-                    font-size: 80px;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    top: 0;
-                    margin: auto;
-                }
-                header>section:last-child{
-                        background-color: black;
-                        position: absolute;
-
-                }
-                header>section:last-child>nav>ol>li{
+                    header{
+                        border: 4px solid red;
+                    }
+                header>h1{
                     display: inline-block;
-                    /*width: 50vw;*/
-                    color: white;
                     position: relative;
-                    right: 0;
+                    left: 50px;
+                    font-size: 45px;
+                }
+                header>nav{
+                    position: absolute;
                     top: 0;
-                    left: 0;
-                    bottom: 0;
-                    margin: auto;
+                    right: 40px;
                 }
 
-
-
-                main{
-                    width: 90vw;
-                    height: 70vh;
-                    background-color: blue;
-                    border: 6px solid black;
-
+                header>nav>ol>li{
+                   display: inline-block;
+                    /*position: relative;*/
+                    padding: 10px;
+                    cursor: pointer;
+                    color: rgb(46,41,41,0.96);
                 }
-                footer{
-                    width: 90vw;
-                    height: 20vh;
-                    background-color: black;
-                    border: 6px solid black;
+              section{
+                  border: 5px solid blue;
+                  position: relative;
+              }
+              section>div:first-child{
+                  border: 5px solid #a87311;
 
-                }
+                  display: inline-block;
+                  position: absolute;
+                  background-color: #1d1db4;
+                  /*height: 100vh;*/
+                  width: 13vw;
+                  top: 0;
+                  color: white;
+                  bottom: 0;
+                  left: 0;
+
+              }
+
+
+              section>div:last-child{
+                  display: inline-block;
+                  width: 84vw;
+                  background-color: white;
+                  /*left: 0;*/
+                  top: 0;
+                  left: 222px;
+                  right: 0;
+                  bottom: 0;
+                  margin: auto;
+
+                  /*left: 260px;*/
+                  position: sticky;
+              }
+
+              section>div:last-child>img{
+                  margin: 40px;
+                  border: 2px solid blue;
+              }
+                    section>div:last-child>p{
+                        display: inline-block;
+                        position: relative;
+                        left: 0;
+                        top: 0;
+                        /*margin: auto;*/
+                    }
+
+                    footer{
+                        width: 100vw;
+                        border: 5px solid red;
+                        height: 10vh;
+                        background-color: #4b4848;
+                        position: relative;
+                            /*
+                            left: 200px;
+                            */
+                    }
+
+                    footer>h1{
+                        position: relative;
+                        left: 500px;
+                        color: white;
+                    }
+
             </style>
 </head>
 <body>
         <header>
-                <section>
+
                     <h1>IJSE</h1>
 
-                </section>
-                <section>
+
                     <nav>
                         <ol>
                             <li><h1> home</h1></li>
@@ -71,16 +107,76 @@
                             <li><h1> About us</h1></li>
                         </ol>
                     </nav>
-                </section>
         </header>
 
-        <main>
-            <section>
+    <section>
+        <div>
+            <nav>
+                <ol>
+                    <li><h1> home</h1></li>
+                    <li><h1> Services</h1></li>
+                    <li><h1> Cont</h1></li>
+                    <li><h1> About us</h1></li>
+                </ol>
+            </nav>
+        </div>
 
-            </section>
-            <section></section>
-        </main>
-        <footer></footer>
+        <div>
+            <img  src="assets/SMS.png" alt="photo">
+            <img  src="assets/SMS.png" alt="photo">
+            <img  src="assets/SMS.png" alt="photo">
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>
+
+        </div>
+    </section>
+
+
+        <footer>
+                <h1>Develop By Ijse</h1>
+        </footer>
 
 </body>
 </html>
