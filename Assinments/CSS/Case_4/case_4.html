@@ -2,9 +2,115 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Case4</title>
+        <style>
+
+            main{
+                position: absolute;
+                height: 400vh;
+                width: 50vw;
+                /*border:10px solid black;*/
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+            }
+
+            section{
+                height: 50vh;
+                width: 50vw;
+                position: relative;
+                top: 148vh;
+                bottom: 1200vh;
+                border: 2px solid red;
+
+
+            }
+            section:first-child{
+                background-color: #a68f54;
+                left: 0;
+                bottom: 0;
+                /*border: 2px solid red;*/
+            }
+            section:nth-child(2){
+                background-color: #68c50e;
+
+                /*border: 2px solid blue;*/
+            }
+            section:nth-child(3){
+                background-color: #23d9b7;
+
+                /*border: 2px solid green;*/
+            }
+            section:nth-child(4){
+                /*border: 2px solid yellow;*/
+                background-color: #550bd5;
+
+            }
+
+            div{
+                height: 10vh;
+                width: 50vw;
+            }
+            section:first-child>div{
+                background-color: #ff253a;
+                /*border: 2px solid yellow;*/
+                position: sticky;
+                top: 0;
+                left: 0;
+
+            }
+            h1{
+                font-size: 20px;
+                color: white;
+            margin: auto;
+            }
+
+            section:nth-child(2)>div{
+                background-color: #ff253a;
+                /*border: 2px solid yellow;*/
+                position: sticky;
+                top: 0;
+            }
+            section:nth-child(3)>div{
+                background-color: #ff253a;
+                /*border: 2px solid yellow;*/
+                position: sticky;
+                top: 0;
+            }
+            section:nth-child(4)>div{
+                background-color: #ff253a;
+                /*border: 2px solid yellow;*/
+                position: relative;
+                top: 0;
+            }
+        </style>
 </head>
 <body>
+<main>
+<section>
+    <div>
+            <h1>Case1</h1>
+    </div>
+</section>
 
+    <section>
+    <div>
+        <h1>Case2</h1>
+    </div>
+
+</section>
+<section>
+    <div>
+        <h1>Case3</h1>
+    </div>
+</section>
+<section>
+    <div>
+        <h1>Case4</h1>
+    </div>
+</section>
+</main>
 </body>
 </html>
