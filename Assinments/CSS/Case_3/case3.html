@@ -6,29 +6,149 @@
 
     <style>
 
-        section:nth-child(1){
-            width: 500px;
-            height: 500px;
-            position: absolute;
+        main{
+            height: 350vh;
+            width: 97vw;
+            position: relative;
             left: 0;
             right: 0;
             top: 0;
             bottom: 0;
             margin: auto;
-            background-color: #ff253a;
-        }
-        section:nth-child(2){
-            width: 450px;
-            height: 450px;
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-            background-color: #1e5da4;
+            border:10px solid black;
+
         }
 
+       main>section:nth-child(1){
+           border-radius: 100%;
+           /*padding: 50px ;*/
+           z-index: 6;
+            width: 500px;
+            height: 500px;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+           border: 80px solid #4b4848;
+            /*background-color: #ff253a;*/
+        }
+        main>section:nth-child(2){
+            border: 50px solid #cb0303;
+            border-radius: 100%;
+
+            z-index: 7;
+            width: 450px;
+            height: 450px;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            /*background-color: white;*/
+        }
+        main>section:nth-child(3){
+            z-index: 3;
+            border-radius: 100%;
+
+            width: 400px;
+            height: 400px;
+            background-color: white;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        main>section:nth-child(4){
+            z-index: 4;
+            border-radius: 100%;
+
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            left: 0;
+            right: 100px;
+            top: 0;
+            bottom: 165px;
+            margin: auto;
+            /*background-color: #1bd21e;*/
+        }
+            /*div{*/
+            /*    position: absolute;*/
+            /*    width: 400px;*/
+            /*    height: 400px;*/
+            /*    background-color: maroon;*/
+            /*}*/
+            div:nth-child(1){
+                border-radius: 100%;
+
+                position: relative;
+                width: 500px;
+                height: 500px;
+                background-color: #a811b9;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+            }
+        div:nth-child(2){
+            border-radius: 100%;
+
+            position: relative;
+            width: 500px;
+            height: 500px;
+            background-color: #137498;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+
+        }
+        div:nth-child(3){
+            border-radius: 100%;
+            position: relative;
+            width: 500px;
+            height: 500px;
+            background-color: #720c5d;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+        h1{
+            font-size: 40px;
+            color: white;
+        }
+        div:nth-child(1)>h1{
+            display:inline-block ;
+
+            position: relative;
+            left: 200px;
+            top: 190px;
+            right: 0;
+            bottom: 0;
+        }
+        div:nth-child(2)>h1{
+            display:inline-block ;
+            position: relative;
+            left: 200px;
+            top: 190px;
+            right: 0;
+            bottom: 0;
+        }
+        div:nth-child(3)>h1{
+            display:inline-block ;
+
+            position: relative;
+            left: 200px;
+            top: 190px;
+            right: 0;
+            bottom: 0;
+        }
     </style>
 
 
@@ -37,22 +157,29 @@
 <body>
         <main>
             <section>
-
             </section>
 
             <section>
-
             </section>
 
             <section>
-                <div></div>
-                <div></div>
-                <div></div>
             </section>
 
-            <section></section>
-            <section></section>
-            <section></section>
+            <section>
+                <div>
+                    <h1>how</h1>
+                </div>
+                <div>
+                    <h1>Are</h1>
+                </div>
+                <div>
+                    <h1>You</h1>
+                </div>
+            </section>
+
+<!--            <section></section>-->
+<!--            <section></section>-->
+<!--            <section></section>-->
 
 
 
