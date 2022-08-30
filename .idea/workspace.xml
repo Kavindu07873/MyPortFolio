@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="da8755b6-380d-458a-94e9-c184f787230b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Style/Footter.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Footter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Style/Head.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/headder.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Style/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_2/Case_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Case_2/Case_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +63,8 @@
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Photo" />
+      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Case_1" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Style" />
@@ -123,7 +129,9 @@
       <workItem from="1661364465931" duration="1561000" />
       <workItem from="1661418329116" duration="15201000" />
       <workItem from="1661508320636" duration="15976000" />
-      <workItem from="1661752110638" duration="3879000" />
+      <workItem from="1661752110638" duration="5575000" />
+      <workItem from="1661784543844" duration="6000" />
+      <workItem from="1661830985603" duration="3568000" />
     </task>
     <servers />
   </component>
