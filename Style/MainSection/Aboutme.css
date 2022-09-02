@@ -1,0 +1,34 @@
+main>section:nth-child(3){
+    position: relative;
+    height: 120vh;
+    width: 97vw;
+    /*background-color: rebeccapurple;*/
+}
+main>section:nth-child(3)>p{
+    box-shadow: 6px 9px 20px 20px rgb(24,23,23);
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 44vw;
+    font-size: 40px;
+    font-family: 'Rubik Dirt', cursive;
+    bottom: 0;
+    margin: auto;
+}
+main>section:nth-child(3)>blockquote>p{
+    font-size: 40px;
+    font-family: 'Rubik Dirt', cursive;
+
+}
+main>section:nth-child(3)>div{
+    box-shadow: 6px 9px 20px 20px rgb(24,23,23);
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 25px;
+    display: inline-block;
+    background-color: #c5700e;
+    position: relative;
+    left: 300px;
+    padding-left: 20px;
+    height: 300px;
+    width: 600px;
+}

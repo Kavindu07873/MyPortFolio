@@ -24,3 +24,65 @@ main>section:first-child>p{
     bottom: 0;
     margin: auto;
 }
+main>section:first-child>article>div{
+    margin: 0;
+}
+
+main>section:first-child>article>div:first-child>h1{
+    font-family: 'Pacifico', cursive;
+    color: #68c50e;
+    font-size: 80px;
+}
+main>section:first-child>article>div:nth-child(2)>h1 {
+    font-family: 'Holtwood One SC', serif;
+    font-size: 25px;
+    left: 0;
+}
+main>section:first-child>article>div:nth-child(3)>h1 {
+    box-shadow:18px 25px 58px 42px #350c0e;
+    display: inline-block;
+    font-family: 'DynaPuff', cursive;
+    font-size: 60px;
+    color: #c5700e;
+}
+main>section:first-child>article>aside{
+    display: flex;
+    height: 70px;
+    width: 400px;
+    align-content: center;
+    justify-content: space-between;
+}
+main>section:first-child>article>aside>div{
+    background-color: #dfece9;
+    border: 5px solid #d90606;
+    height: 100%;
+    width: 80px;
+}
+main>section:first-child>article>aside>div:first-child>a>img{
+    width: 80px;
+    height: 70px;
+}
+main>section:first-child>article>aside>div:nth-child(2)>a>img{
+    width: 80px;
+    height: 70px;
+} main>section:first-child>article>aside>div:nth-child(3)>a>img{
+      width: 80px;
+      height: 70px;
+  }
+main>section:first-child>article>aside>div:nth-child(4)>a>img{
+    width: 80px;
+    height: 70px;
+}
+main>section:first-child>article:last-child{
+    display: inline-block;
+    position: absolute;
+    right: 110px;
+    top: 100px;
+    border-radius: 100%;
+}
+main>section:first-child>article:last-child>img{
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+    box-shadow: 6px 9px 20px 20px rgb(24,23,23);
+}
