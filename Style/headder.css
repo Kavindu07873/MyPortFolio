@@ -27,9 +27,9 @@ header>section:first-child>h1{
 body>header>section:nth-child(2){
     position: absolute;
     top: 13px;
-    left: 637px;
+    left: 480px;
     display: inline-block;
-    width: 900px;
+    width: 1050px;
 }
 body>header>section:last-child>div>nav>ol>li{
     display: inline-block;
