@@ -1,0 +1,26 @@
+main>section{
+    border: 5px solid #4000ff;
+
+    /*position: relative;*/
+    /*width: 1515px;*/
+    /*width: 100%;*/
+    /*border: 5px solid red;*/
+}
+
+main>section:first-child{
+    position: relative;
+    height: 100vh;
+    /*width: 97vw;*/
+    /*border: 2px solid red;*/
+}
+main>section:first-child>p{
+    box-shadow: 6px 9px 20px 20px rgb(24,23,23);
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 45vw;
+    font-size: 40px;
+    font-family: 'Rubik Dirt', cursive;
+    bottom: 0;
+    margin: auto;
+}
