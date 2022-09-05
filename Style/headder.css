@@ -17,6 +17,10 @@ header>section:first-child{
     right: 0;
     bottom: 0;
 }
+header>section:first-child>img{
+    width: 100px;
+    height: 100px;
+}
 /*Dilshan Kavindu*/
 header>section:first-child>h1{
     margin: 0;
