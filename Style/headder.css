@@ -1,8 +1,8 @@
 header{
     position: fixed;
     /*width: 1520px;*/
-    width: 100vw;
-
+    width: 98vw;
+border: 6px solid white;
     height: 9vh;
     z-index: 6;
     left: 0;
@@ -12,28 +12,32 @@ header{
 header>section:first-child{
     display: inline-block;
     position: absolute;
-    left: 20px;
+    left: 65px;
     top: 5px;
     right: 0;
     bottom: 0;
 }
 header>section:first-child>img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 64px;
+
 }
-/*Dilshan Kavindu*/
-header>section:first-child>h1{
-    margin: 0;
-    font-family: 'Rubik Dirt', cursive;
-    font-size: 50px;
-    color: #ff253a;
-}
+/*!*Dilshan Kavindu*!*/
+/*header>section:first-child>h1{*/
+/*    margin: 0;*/
+/*    font-family: 'Rubik Dirt', cursive;*/
+/*    font-size: 50px;*/
+/*    color: #ff253a;*/
+/*}*/
 body>header>section:nth-child(2){
     position: absolute;
-    top: 13px;
-    left: 480px;
+    /*top: 0px;*/
+    left: 270px;
     display: inline-block;
-    width: 1050px;
+    width: 1290px;
+    font-size: 20px;
+    /*color: red;*/
+
 }
 body>header>section:last-child>div>nav>ol>li{
     display: inline-block;
