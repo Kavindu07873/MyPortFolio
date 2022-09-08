@@ -1,247 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width initial-scale=1">
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--  <meta charset="UTF-8">-->
+<!--  <title>Transition Case 1 | IJSE</title>-->
+<!--  <meta content="width=device-width initial-scale=1" name="viewport">-->
+<!--  <link href="assets/img/fav.png" rel="icon">-->
+<!--  <link href="assets/css/normalize.css" rel="stylesheet">-->
+<!--  <link href="assets/fonts/css/all.min.css" rel="stylesheet">-->
+<!--  <style>-->
 
-  <title>Case2</title>
-  <style>
+<!--    section {-->
+<!--      width: 230px;-->
+<!--      height: 500px;-->
+<!--      position: relative;-->
+<!--      top: 100px;-->
+<!--      display: flex;-->
+<!--      flex-direction: column;-->
+<!--      justify-content: space-around;-->
+<!--      font-family: Ubuntu;-->
+<!--      right: 175px;-->
+<!--    }-->
 
-    header{
-      border: 4px solid red;
-      position: fixed;
-      width: 100vw;
-      z-index: 4;
-      top: 0;
-      left: 0;
-      background-color: #ff253a;
-    }
-    header>h1{
-      display: inline-block;
-      position: relative;
-      left: 50px;
-      font-size: 45px;
-    }
-    header>nav{
-      position: absolute;
-      top: 0;
-      right: 40px;
-    }
-    header>nav>ol>li{
-      display: inline-block;
-      /*position: relative;*/
-      padding: 10px;
-      cursor: pointer;
-      color: rgb(46,41,41,0.96);
-    }
-    section{
-      /*border: 5px solid blue;*/
-      position: relative;
-      margin-top: 110px;
-    }
-    section>div:first-child{
-      /*border: 5px solid #a87311;*/
+<!--    section > div {-->
+<!--      left: 0;-->
+<!--      position: relative;-->
+<!--      height: 50px;-->
+<!--      width: 100%;-->
+<!--      background-color: #8715b4;-->
+<!--      color: white;-->
+<!--      box-shadow: 3px 2px 5px 1px #2b1d9e9e;-->
+<!--      cursor: pointer;-->
+<!--      transition-property: all;-->
+<!--      transition-duration: 1s;-->
+<!--    }-->
 
-      display: inline-block;
-      position: absolute;
-      background-color: #1d1db4;
-      /*height: 100vh;*/
-      width: 13vw;
-      top: 0;
-      color: white;
-      bottom: 0;
-      left: 0;
+<!--    section > div > h3 {-->
+<!--      padding-left: 10px;-->
+<!--      position: absolute;-->
+<!--      top: 0;-->
+<!--      bottom: 0;-->
+<!--      margin: auto;-->
+<!--      height: max-content;-->
+<!--    }-->
 
-    }
-    section>div:last-child{
-      display: inline-block;
-      width: 84vw;
-      background-color: white;
-      /*left: 0;*/
-      top: 0;
-      left: 222px;
-      right: 0;
-      bottom: 0;
-      margin: auto;
+<!--    section > div > i {-->
+<!--      position: absolute;-->
+<!--      right: 15px;-->
+<!--      top: 0;-->
+<!--      bottom: 0;-->
+<!--      height: max-content;-->
+<!--      margin: auto;-->
+<!--      font-size: 25px;-->
+<!--    }-->
 
-      /*left: 260px;*/
-      position: sticky;
-    }
-    section>div:last-child>img{
-      margin: 40px;
-      border: 2px solid blue;
-    }
-    section>div:last-child>p{
-      display: inline-block;
-      position: relative;
-      left: 0;
-      top: 0;
-      /*margin: auto;*/
-    }
-    footer{
-      width: 97vw;
-      border: 5px solid red;
-      height: 10vh;
-      background-color: #4b4848;
-      position: relative;
-      /*
-      left: 200px;
-      */
-      display:inline-block;
-    }
-    footer>h1{
-      display: inline-block;
-      position: relative;
-      left: 500px;
-      color: white;
-    }
+<!--    section>div:hover{-->
+<!--      /*background-color: #722df0;*/-->
+<!--      left: 175px;-->
+<!--      transition-property: all;-->
+<!--      transition-duration: 1s;-->
+<!--    }-->
+<!--  </style>-->
+<!--</head>-->
+<!--<body>-->
 
-    @media all and (min-width: 320px) and (max-width: 425px) {
-      header{
-        /*border: 4px solid #52bb2f;*/
-        position: fixed;
-        height: 18vh;
-        width: 98vw;
-        z-index: 4;
-        top: 0;
-        left: 0;
-        background-color: #23d9b7;
-      }
-      header>h1{
-        display: inline-block;
-        position: absolute;
-        left: 145px;
-        right: 0;
-        margin: auto;
-        font-size: 45px;
-      }
-      header>nav{
-        position: absolute;
-        top: 14px;
-        right: 40px;
-      }
-      header>nav>ol>li{
-        display: inline-block;
-        font-size: 13px;
-        /*position: relative;*/
-        padding: 10px;
-        cursor: pointer;
-        color: rgb(46,41,41,0.96);
-      }
+<!--<section>-->
+<!--  <div>-->
+<!--    <h3>Menu One</h3>-->
+<!--    <i class="fa-solid fa-address-book"></i>-->
+<!--  </div>-->
 
-      section{
-        /*border: 5px solid blue;*/
-        position: relative;
-        margin-top: 110px;
-      }
-      section>div:first-child{
-        /*border: 5px solid #a87311;*/
+<!--  <div>-->
+<!--    <h3>Menu Two</h3>-->
+<!--    <i class="fa-solid fa-truck-medical"></i>-->
+<!--  </div>-->
 
-        display: inline-block;
-        position: absolute;
-        background-color: #1d1db4;
-        /*height: 100vh;*/
-        width: 0vw;
-        top: 0;
-        color: white;
-        bottom: 0;
-        left: 0;
+<!--  <div>-->
+<!--    <h3>Menu Three</h3>-->
+<!--    <i class="fa-solid fa-book-atlas"></i>-->
+<!--  </div>-->
 
-      }
+<!--  <div>-->
+<!--    <h3>Menu Four</h3>-->
+<!--    <i class="fa-solid fa-layer-group"></i>-->
+<!--  </div>-->
 
-      section>div:last-child{
-        display: inline-block;
-        width: 98vw;
-        background-color: white;
-        /*left: 0;*/
-        /*top: 0;*/
-        /*left: 0;*/
-        /*right: 0;*/
-        /*bottom: 0;*/
-        /*margin: auto;*/
-
-        /*left: 260px;*/
-        /*position: sticky;*/
-      }
-      section>div:last-child>img{
-        /*margin: 40px;*/
-        border: 2px solid blue;
-      }
-      section>div:last-child>p{
-        display: inline-block;
-        position: relative;
-        left: 0;
-        top: 0;
-        /*margin: auto;*/
-      }
-      footer{
-        width: 97vw;
-        border: 5px solid red;
-        height: 10vh;
-        background-color: #4b4848;
-        position: relative;
-        /*
-        left: 200px;
-        */
-        display:inline-block;
-      }
-      footer>h1{
-        display: inline-block;
-        position: relative;
-        left: 500px;
-        color: white;
-      }
-    }
-  </style>
-</head>
-<body>
-<header>
-
-  <h1>IJSE</h1>
+<!--  <div>-->
+<!--    <h3>Menu Five</h3>-->
+<!--    <i class="fa-solid fa-cart-arrow-down"></i>-->
+<!--  </div>-->
+<!--</section>-->
 
 
-  <nav>
-    <ol>
-      <li><h1> home</h1></li>
-      <li><h1> Services</h1></li>
-      <li><h1> Cont</h1></li>
-      <li><h1> About us</h1></li>
-    </ol>
-  </nav>
-</header>
-
-<section>
-  <div>
-    <nav>
-      <ol>
-        <li><h1> home</h1></li>
-        <li><h1> Services</h1></li>
-        <li><h1> Cont</h1></li>
-        <li><h1> About us</h1></li>
-      </ol>
-    </nav>
-  </div>
-
-  <div>
-    <img  src="assets/SMS.png" alt="photo">
-    <img  src="assets/SMS.png" alt="photo">
-    <img  src="assets/SMS.png" alt="photo">
-
-
-<!--    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>-->
-<!--    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>-->
-<!--    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>-->
-<!--    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>-->
-<!--    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>-->
-<!--    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio eius exercitationem facilis molestias numquam odit officia, perferendis quae rem unde vel voluptatem, voluptatibus? Accusantium consequatur debitis dolores nisi sapiente.</p>-->
-
-  </div>
-</section>
-
-
-<footer>
-  <h1>Develop By Ijse</h1>
-</footer>
-
-</body>
-</html>
+<!--</body>-->
+<!--</html>-->

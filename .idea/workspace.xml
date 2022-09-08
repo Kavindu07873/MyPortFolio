@@ -6,6 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="da8755b6-380d-458a-94e9-c184f787230b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_1/asset/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_1/asset/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_1/case_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_1/case_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_2/Case_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_2/Case_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_2/assets/SMS.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_2/assets/SMS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_3/case3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_3/case3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_4/case_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_4/case_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_5/Case5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_5/Case5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_6/Case6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_6/Case6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_7/Case7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Case_7/Case7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -59,11 +68,11 @@
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Basic" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Photo" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Case_1" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets" />
-      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Style" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -132,7 +141,11 @@
       <workItem from="1662008995526" duration="10072000" />
       <workItem from="1662140802119" duration="3043000" />
       <workItem from="1662144025410" duration="8571000" />
-      <workItem from="1662269963428" duration="31622000" />
+      <workItem from="1662269963428" duration="32080000" />
+      <workItem from="1662406203477" duration="106000" />
+      <workItem from="1662468378526" duration="1107000" />
+      <workItem from="1662547583263" duration="21000" />
+      <workItem from="1662614487054" duration="2399000" />
     </task>
     <servers />
   </component>
