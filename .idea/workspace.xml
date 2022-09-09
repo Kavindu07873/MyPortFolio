@@ -5,16 +5,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da8755b6-380d-458a-94e9-c184f787230b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/js/bootstrap.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_1/asset/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_1/asset/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_1/case_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_1/case_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_2/Case_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_2/Case_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_2/assets/SMS.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_2/assets/SMS.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_3/case3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_3/case3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_4/case_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_4/case_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_5/Case5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_5/Case5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_6/Case6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Basic/Case_6/Case6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_7/Case7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Case_7/Case7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dp/40cc7a2f-9ece-48c3-b2ec-b1c5db9f6bd2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Dp/40cc7a2f-9ece-48c3-b2ec-b1c5db9f6bd2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dp/d5be509c-d508-48b5-b3fd-2fc4a873f0b9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Dp/d5be509c-d508-48b5-b3fd-2fc4a873f0b9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dp/dKP.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Dp/dKP.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dp/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Dp/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gallery/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Gallery/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photo/FaceBook.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Photo/FaceBook.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photo/Instergrame.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Photo/Instergrame.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photo/Interface Design.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Photo/Interface Design.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photo/Twitter.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Photo/Twitter.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photo/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Photo/facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photo/github.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Photo/github.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photo/github.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Photo/github.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photo/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Photo/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photo/linked-in-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Photo/linked-in-alt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dog Shop.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Project/Dog Shop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/GroupChat.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Project/GroupChat.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/SMS.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Project/SMS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Servicess/1_9BrpVqQkpXGPP4fLcrk5Dw.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Servicess/1_9BrpVqQkpXGPP4fLcrk5Dw.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Servicess/Mobile app development.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Servicess/Mobile app development.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Servicess/Sofware development.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Servicess/Sofware development.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Servicess/Web Development.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Servicess/Web Development.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Servicess/creative-2-website-design-and-development-company-in-sri-lanka.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Servicess/creative-2-website-design-and-development-company-in-sri-lanka.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Servicess/mobile_development2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Servicess/mobile_development2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Servicess/photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Servicess/photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Servicess/software-software-development.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Servicess/software-software-development.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/CSS.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Skills/CSS.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/android-original-wordmark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Skills/android-original-wordmark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/git.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Skills/git.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/html5-original-wordmark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Skills/html5-original-wordmark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/java-original.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Skills/java-original.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/mysql-original-wordmark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Skills/mysql-original-wordmark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/netbean.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Skills/netbean.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/oracle-original.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Skills/oracle-original.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/photoshop-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Portfolio_img/Skills/photoshop-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_7/Case7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_7/assets/SMS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Case_8/Case-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Case_8/Case-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Transition/Case1/Case_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Transition/Case1/Case_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,30 +137,34 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/2ND SEMESTER/InternateExplorer/Internet Tecnologie/MyPortFolio/MyPortFolio/Assinments/CSS/Case_7/assets&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/2ND SEMESTER/InternateExplorer/Internet Tecnologie/MyPortFolio/MyPortFolio/Assets/Framework&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Framework" />
+      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Transition\Case1" />
+      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Case_7\assets" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Case_2\assets" />
-      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\font" />
-      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Case_1" />
-      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Portfolio_img" />
+      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\PortfolioImg" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Basic" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Photo" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio" />
-      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Case_1" />
-      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -145,7 +237,9 @@
       <workItem from="1662406203477" duration="106000" />
       <workItem from="1662468378526" duration="1107000" />
       <workItem from="1662547583263" duration="21000" />
-      <workItem from="1662614487054" duration="2399000" />
+      <workItem from="1662614487054" duration="6662000" />
+      <workItem from="1662692761123" duration="2887000" />
+      <workItem from="1662709930134" duration="353000" />
     </task>
     <servers />
   </component>
