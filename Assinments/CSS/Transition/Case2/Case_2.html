@@ -9,7 +9,7 @@
             background:linear-gradient(100deg,black,gray,black);
 
         }
-        div{
+        div>div{
             background-color: #68c50e;
             width: 400px;
             height: 400px;
@@ -34,21 +34,22 @@
             width: max-content;
             height: max-content;
         }
-        div:hover{
+        body>div>div:hover{
           transform: rotate(360deg);
             transition-property: all;
             transition-duration: 2s;
         }
-        div:hover>h1{
-            transform: rotate(-360deg);
-            transition-property: all;
-            transition-duration: 2s;
-        }
+        /*div:hover>h1{*/
+        /*    transform: rotate(-360deg);*/
+        /*    transition-property: all;*/
+        /*    transition-duration: 2s;*/
+        /*}*/
 
     </style>
 </head>
 <body>
         <div>
+            <div></div>
             <h1>RWAD</h1>
         </div>
 </body>
