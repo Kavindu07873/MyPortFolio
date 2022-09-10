@@ -2,9 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Case_2</title>
+
+    <style>
+        body{
+            background:linear-gradient(100deg,black,gray,black);
+
+        }
+        div{
+            background-color: #68c50e;
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            border-radius: 100%;
+            margin: auto;
+            border: 15px solid black;
+            border-top: 15px solid red;
+            cursor: pointer;
+        }
+        div>h1{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+            width: max-content;
+            height: max-content;
+        }
+        div:hover{
+          transform: rotate(360deg);
+            transition-property: all;
+            transition-duration: 2s;
+        }
+        div:hover>h1{
+            transform: rotate(-360deg);
+            transition-property: all;
+            transition-duration: 2s;
+        }
+
+    </style>
 </head>
 <body>
-
+        <div>
+            <h1>RWAD</h1>
+        </div>
 </body>
 </html>
