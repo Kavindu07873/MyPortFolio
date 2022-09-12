@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <title>Case1</title>
 <style>
-  section{
-    width: 95%;
-    height: auto;
-    border: 3px solid red;
-    position: relative;
-  }
+  /*section{*/
+  /*  width: 1400px;*/
+  /*  height: 600px;*/
+  /*  border: 3px solid red;*/
+  /*  position: relative;*/
+  /*}*/
   div{
+      position: relative;
     background-color: #68c50e;
     width: 200px;
     height: 100px;
@@ -20,61 +21,56 @@
 
     animation-iteration-count: infinite;
     border: 5px solid black;
+      animation-direction: alternate;
   }
   @keyframes my-amation{
     0%{
       background-color: #1d1db4;
-    position: relative;
-      /*right: 0;*/
-left: 0;
-top: 0;
+        margin: 0px 0px 0px 0px ;
     }
-    100%{
-      background-color: #ff253a;
-      position: relative;
-      top: 0;
-      left: m;
+      25%{
+          background-color: #ff253a;
+          margin: 0px 0px 0px 1300px ;
 
-    }
-    /*40%{*/
-    /*  background-color: #ff253a;*/
-    /*  position: relative;*/
-    /*  left: 100%;*/
-    /*  bottom: 100%;*/
+      }
+      50% {
+          background-color: #1bb28a;
+          margin: 600px 0px 0px 1300px ;
 
-    /*}*/
-    /*60%{*/
-    /*    background-color: #ff253a;*/
-    /*    position: relative;*/
-    /*    left: 100%;*/
-    /*    bottom: 100%;*/
+      }
+      75% {
+          background-color: #7f962b;
+          margin: 600px 0px 0px 0px ;
 
-    /*  }*/
-    /*80%{*/
-    /*  background-color: #ff253a;*/
-    /*  position: relative;*/
-    /*  left: 100%;*/
-    /*  bottom: 100%;*/
-
-    /*}*/
-    /*100%{*/
-    /*  background-color: #69b423;*/
-    /*  position: relative;*/
-    /*  right: 0;*/
-    /*  top: 0;*/
-
-    /*}*/
-
+      }
+      100% {
+          background-color: #1d1db4;
+          margin: 0px 0px 0px 0px ;
+      }
+      /*62.5% {*/
+      /*    background-color: #7b0e8c;*/
+      /*    margin: 600px 0px 0px 0px ;*/
+      /*}*/
+      /*75% {*/
+      /*    background-color: #121c13;*/
+      /*    margin: 600px 0px 0px 1300px ;*/
+      /*}*/
+      /*87.5%{*/
+      /*    background-color: #ff253a;*/
+      /*    margin: 0px 0px 0px 1300px ;*/
+      /*}*/
+      /*0%{*/
+      /*    background-color: #1d1db4;*/
+      /*    margin: 0px 0px 0px 0px ;*/
+      /*}*/
   }
 </style>
 
 </head>
 <body>
-<section>
   <div>
 
   </div>
-</section>
 
 </body>
 </html>
