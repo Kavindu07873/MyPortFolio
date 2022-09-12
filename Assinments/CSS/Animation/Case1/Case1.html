@@ -17,9 +17,11 @@
     height: 100px;
     border-radius: 50px;
   animation-name: my-amation;
-    animation-duration: 20s;    top: 100%;
+    animation-duration: 20s;
 
-    animation-iteration-count: infinite;
+      /*rotate: 1turn;*/
+/*rotate: 180deg;*/
+      animation-iteration-count: infinite;
     border: 5px solid black;
       animation-direction: alternate;
   }
@@ -31,21 +33,26 @@
       25%{
           background-color: #ff253a;
           margin: 0px 0px 0px 1300px ;
+          rotate: 180deg;
 
       }
       50% {
           background-color: #1bb28a;
           margin: 600px 0px 0px 1300px ;
+          rotate: 360deg;
 
       }
       75% {
           background-color: #7f962b;
           margin: 600px 0px 0px 0px ;
+          rotate: 180deg;
 
       }
       100% {
           background-color: #1d1db4;
           margin: 0px 0px 0px 0px ;
+          rotate: 0deg;
+
       }
       /*62.5% {*/
       /*    background-color: #7b0e8c;*/
