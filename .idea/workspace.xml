@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da8755b6-380d-458a-94e9-c184f787230b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Animation/Case4/asset/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Animation/Case4/asset/city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Animation/Case4/asset/road.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Animation/Case4/asset/sky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assinments/CSS/Animation/Case4/asset/wheel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assinments/CSS/Animation/Case3/Case3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Animation/Case3/Case3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,34 +38,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/2ND SEMESTER/InternateExplorer/Internet Tecnologie/MyPortFolio/MyPortFolio/Assets/Framework&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "E:/2ND SEMESTER/InternateExplorer/Internet Tecnologie/MyPortFolio/MyPortFolio/Assinments/CSS/Animation/Case4/asset",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Animation\Case4\asset" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Framework" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Transition\Case1" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Case_7\assets" />
-      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Case_2\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Animation\Case2" />
@@ -146,7 +152,8 @@
       <workItem from="1662991429086" duration="4865000" />
       <workItem from="1663008870743" duration="21000" />
       <workItem from="1663067185035" duration="8000" />
-      <workItem from="1663067720383" duration="8266000" />
+      <workItem from="1663067720383" duration="9355000" />
+      <workItem from="1663165653034" duration="5281000" />
     </task>
     <servers />
   </component>
