@@ -188,10 +188,26 @@
             /*position: absolute;*/
             z-index: 8;
 
+
+            /*animation-name: my-animation;*/
+            /*animation-duration: 20s;*/
+            /*animation-iteration-count: infinite;*/
+            /*!*animation-direction: reverse;*!*/
+            /*animation-timing-function: linear;*/
+            /*animation-delay: 4s;*/
+
         }
         main>section>div:nth-child(5)>img{
             width: 110px;
             /*position: absolute;*/
+
+
+            animation-name: my-animation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            /*animation-direction: reverse;*/
+            animation-timing-function: linear;
+            animation-delay: 4s;
         }
 
 
@@ -209,7 +225,44 @@
         main>section>div:nth-child(6)>img{
             width: 110px;
             /*position: absolute;*/
+
+
+            animation-name: my-animation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            /*animation-direction: reverse;*/
+            animation-timing-function: linear;
+            animation-delay: 4s;
         }
+
+
+
+        @keyframes my-animation {
+            0%{
+                transform: rotate(0deg);
+
+            }
+            25%{
+                transform: rotate(90deg);
+            }
+            50%{
+                /*transform: rotate(360deg);*/
+                transform: rotate(180deg);
+
+            }
+            75%{
+                transform: rotate(270deg);
+
+
+            }
+
+            100%{
+                transform: rotate(360deg);
+
+
+            }
+        }
+
 
 
         @keyframes my-amation {
