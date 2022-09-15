@@ -1,0 +1,145 @@
+
+main>section:nth-child(7)>p>dfn{
+    box-shadow: 6px 9px 20px 20px rgb(24,23,23);
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 44vw;
+    font-size: 40px;
+    font-family: 'Rubik Dirt', cursive;
+    bottom: 0;
+    margin: auto;
+}
+
+main>section:nth-child(7)>div{
+    box-shadow: 6px 9px 20px 20px rgb(24,23,23);
+    top: 30px;
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+main>section:nth-child(7)>div>div{
+    box-shadow: 6px 9px 20px 20px rgb(63, 27, 27);
+    border: 6px solid white;
+    width: 350px;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Bungee Shade', cursive;
+}
+main>section:nth-child(7)>div>div:nth-child(1)>p:first-child{
+    font-family: 'Bungee Shade', cursive;
+    /*color: white;*/
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    font-size: 27px;
+    left: 7px;
+    right: 0;
+    box-shadow: 6px 9px 20px 20px rgb(27, 33, 63);
+
+}
+main>section:nth-child(7)>div>div:nth-child(1)>img{
+    position: relative;
+    left: 13px;
+    width: 325px ;
+    height: 325px;
+    /*box-shadow: 6px 9px 20px 20px rgb(27, 33, 63);*/
+
+}
+main>section:nth-child(7)>div>div:nth-child(1)>p:last-child{
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    left: 68px;
+    width: 200px
+}
+
+main>section:nth-child(7)>div>div:nth-child(2)>p:first-child{
+    font-family: 'Bungee Shade', cursive;
+    /*color: white;*/
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    font-size: 20px;
+    left: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 6px 9px 20px 20px rgb(27, 33, 63);
+
+}
+main>section:nth-child(7)>div>div:nth-child(2)>img{
+    position: relative;
+    left: 13px;
+    width: 325px ;
+    height: 325px;
+    /*box-shadow: 6px 9px 20px 20px rgb(27, 33, 63);*/
+
+}
+main>section:nth-child(7)>div>div:nth-child(2)>p:last-child{
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    position: relative;
+    left: 68px;
+    width: 200px
+
+}
+
+main>section:nth-child(7)>div>div:nth-child(3)>p:first-child{
+    font-family: 'Bungee Shade', cursive;
+    /*color: white;*/
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    font-size: 22px;
+    left: 7px;
+    right: 0;
+    box-shadow: 6px 9px 20px 20px rgb(27, 33, 63);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+main>section:nth-child(7)>div>div:nth-child(3)>img{
+    position: relative;
+    left: 13px;
+    width: 325px ;
+    height: 325px;
+    /*box-shadow: 6px 9px 20px 20px rgb(27, 33, 63);*/
+
+}
+main>section:nth-child(7)>div>div:nth-child(3)>p:last-child{
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    position: relative;
+    left: 68px;
+    width: 200px
+}
+
+
+main>section:nth-child(7)>div>div:nth-child(4)>p:first-child{
+    font-family: 'Bungee Shade', cursive;
+    /*color: white;*/
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    font-size: 29px;
+    left: 6px;
+    right: 0;
+    box-shadow: 6px 9px 20px 20px rgb(27, 33, 63);
+
+}
+main>section:nth-child(7)>div>div:nth-child(4)>img{
+    position: relative;
+    left: 13px;
+    width: 325px ;
+    height: 325px;
+
+}
+main>section:nth-child(7)>div>div:nth-child(4)>p:last-child{
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    position: relative;
+    left: 68px;
+    width: 200px
+}
