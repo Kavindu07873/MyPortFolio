@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <title>Case4</title>
     <style>
-        /*div{*/
-            /*width: 500px;*/
-            /*height: 500px;*/
-        /*}*/
+
+        main{
+            border: 2px solid rebeccapurple;
+
+
+        }
+
+        main>section{
+            border: 2px solid blue;
+            height: 100%;
+
+            /*animation-name: my-amation;*/
+            /*animation-duration: 20s;*/
+            /*animation-iteration-count: infinite;*/
+            /*!*animation-direction: reverse;*!*/
+            /*animation-timing-function: linear;*/
+            /*animation-delay: 4s;*/
+        }
+
         main>section>div:nth-child(1){
             display: inline-block;
 
@@ -40,20 +55,75 @@
             right: 0;
             margin: auto;
 
+            animation-name: my-amation;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            /*animation-direction: reverse;*/
+            animation-timing-function: linear;
+            animation-delay: 4s;
+
+
         }
-        main>section>div:nth-child(2)>img{
-            width: 1500px;
+        main>section>div:nth-child(2)>img:nth-child(1){
+            /*width: 3500px;*/
             height: 200px;
             z-index: 5;
+            position: absolute;
+            left: 75%;
+            top: 0;
+        }
+        main>section>div:nth-child(2)>img:nth-child(2){
+            /*width: 3500px;*/
+            height: 200px;
+            z-index: 5;
+            position: absolute;
+            left: 0;
+            top: 0;
+            /*bottom: 0;*/
+            /*right: 0;*/
+            /*margin: auto;*/
 
         }
-
+        main>section>div:nth-child(2)>img:nth-child(3){
+              /*width: 3500px;*/
+              height: 200px;
+              z-index: 5;
+            position: absolute;
+            left: 150%;
+            top: 0;
+            /*bottom: 0;*/
+            /*right: 0;*/
+            /*margin: auto;*/
+          }
+        main>section>div:nth-child(2)>img:nth-child(4){
+            /*width: 3500px;*/
+            height: 200px;
+            z-index: 5;
+            position: absolute;
+            left: 225%;
+            top: 0;
+            /*bottom: 0;*/
+            /*right: 0;*/
+            /*margin: auto;*/
+        }
+        main>section>div:nth-child(2)>img:nth-child(5){
+            /*width: 3500px;*/
+            height: 200px;
+            z-index: 5;
+            position: absolute;
+            left: 300%;
+            top: 0;
+            /*bottom: 0;*/
+            /*right: 0;*/
+            /*margin: auto;*/
+        }
 
 
 
 
         main>section>div:nth-child(3){
             display: inline-block;
+            /*overflow: hidden;*/
 
             /*position: absolute;*/
             z-index: 5;
@@ -64,9 +134,19 @@
             right: 0;
             margin: auto;
 
+            /*overflow: hidden;*/
+            /*overflow-x: scroll;*/
+
+
+            animation-name: my-amation;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            /*animation-direction: reverse;*/
+            animation-timing-function: linear;
+            animation-delay: 4s;
         }
         main>section>div:nth-child(3)>img{
-            /*width: 1500px;*/
+            /*width: 5995px;*/
             height: 350px;
             z-index: 5;
 
@@ -131,6 +211,29 @@
             /*position: absolute;*/
         }
 
+
+        @keyframes my-amation {
+            0%{
+
+            }
+            25%{
+                transform: translateX(-800px);
+            }
+            50%{
+                transform: translateX(-1600px);
+
+                           }
+            75%{
+                transform: translateX(-2400px);
+            }
+
+            100%{
+                transform: translateX(-3200px);
+
+
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -141,6 +244,10 @@
 
         </div>
         <div>
+            <img src="asset/city.png" alt="Interface design">
+            <img src="asset/city.png" alt="Interface design">
+            <img src="asset/city.png" alt="Interface design">
+            <img src="asset/city.png" alt="Interface design">
             <img src="asset/city.png" alt="Interface design">
 
         </div>
