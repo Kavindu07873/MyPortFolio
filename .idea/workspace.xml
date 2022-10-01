@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="da8755b6-380d-458a-94e9-c184f787230b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/Assinments/CSS/Case_1/case1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Transition/Case1/Case_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Transition/Case1/Case_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/FrameWork/Boostract Pos.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/FrameWork/Boostract Pos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/FrameWork/Pos/Customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/FrameWork/Pos/Customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework.html" beforeDir="false" afterPath="$PROJECT_DIR$/framework.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "E:/2ND SEMESTER/InternateExplorer/Internet Tecnologie/MyPortFolio/MyPortFolio/Assinments/CSS/FrameWork/Pos/Assets",
+    "last_opened_file_path": "E:/Project/DOG PARADISE Semester Project(ALL)",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -167,7 +168,7 @@
       <workItem from="1664523528522" duration="1186000" />
       <workItem from="1664525638736" duration="1094000" />
       <workItem from="1664549665721" duration="488000" />
-      <workItem from="1664601817833" duration="8339000" />
+      <workItem from="1664601817833" duration="9010000" />
     </task>
     <servers />
   </component>
