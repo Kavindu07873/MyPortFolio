@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ItemForm</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="../../../../../Assets/Framework/css/bootstrap.min.css">
+
+</head>
+<body>
+<header>
+  <!--  //logo-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../Assets/dKP.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Dkp-Product  </a>
+    </div>
+
+    <!--/links-->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a href="../DashBord.html" class="nav-link active" aria-current="page" href="#">Home</a>
+          <a href="Orders.html" class="nav-link active" aria-current="page" href="#">Orders</a>
+          <a href="Item.html" class="nav-link active" aria-current="page" href="#">Items</a>
+          <a href="Customer.html" class="nav-link active" aria-current="page" href="#">Customers</a>
+
+        </div>
+      </div>
+      <!--  Search-->
+    </div>
+
+    <div class="container-fluid">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+</header>
+<main>
+  <section>
+    <h1 class="bg-success p-2 text-white bg-opacity-75">Item Details</h1>
+  </section>
+
+
+  <br>
+  <br>
+  <section>
+    <!-- Button trigger modal -->
+    <button  type="button" class="btn btn-primary bg-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Add New Items
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Add New Items</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="ItemCode" aria-label="ItemCode">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="ItemName" aria-label="ItemName">
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+              <div class="col">
+                <input type="number" class="form-control" placeholder="Price" aria-label="Price">
+              </div>
+              <div class="col">
+                <input type="number" class="form-control" placeholder="Qty" aria-label="Qty">
+              </div>
+
+            </div>
+
+            <br>
+
+            <br>
+            <br>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <br>
+  <br>
+  <section>
+
+    <form style="width: 50%" class="d-flex"  role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+
+
+    <br>
+    <br>
+
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button class="btn btn-primary btn-outline-warning bg-success" type="button">UPDATE</button>
+      <button class="btn btn-primary btn-outline-danger bg-success" type="button">DELETE</button>
+    </div>
+
+  </section>
+
+  <br>
+  <br>
+  <br>
+  <section>
+    <table style="width: 95%" border="2px solid red"   class="col table table-bordered border-primary table-dark table-striped">
+      <thead>
+      <tr class="table-dark table-striped">
+        <th scope="col">No</th>
+        <th scope="col">ItemCode</th>
+        <th scope="col">ItemName</th>
+        <th scope="col">Description</th>
+        <th scope="col">Price</th>
+        <th scope="col">Qty</th>
+      </tr>
+      </thead>
+      <tbody >
+      <tr >
+        <td scope="row">1</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+
+      </tr>
+      <tr>
+        <td>2</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+
+      </tr>
+      <tr>
+        <td>3</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+
+      </tr>
+
+      </tbody>
+    </table>
+
+  </section>
+
+
+
+</main>
+<script src="../../../../../Assets/Framework/js/bootstrap.min.js"></script>
+
+</body>
+</html>
