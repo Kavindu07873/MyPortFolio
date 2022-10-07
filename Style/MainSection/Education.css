@@ -1,0 +1,140 @@
+main>section:nth-child(13)>p>dfn{
+    box-shadow: 6px 9px 20px 20px rgb(24,23,23);
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 44vw;
+    font-size: 40px;
+    font-family: 'Rubik Dirt', cursive;
+    bottom: 0;
+    margin: auto;
+
+
+}
+
+main>section:nth-child(13)>aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*background-color: #720c5d;*/
+    height: 80vh;
+
+}
+
+main>section:nth-child(13)>aside>div:first-child{
+    box-shadow: 6px 9px 20px 20px rgb(39, 70, 42);
+    border: 2px solid black;
+    height: 25vh;
+    background-color: #4b4848;
+    align-self: self-end;
+    /*width:32vw;*/
+}
+main>section:nth-child(13)>aside>div:first-child>p{
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+    right: 0;
+    margin: 0;
+    color: #ff253a;
+
+}
+main>section:nth-child(13)>aside>div:first-child>a{
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    /*left: 30px;*/
+    right: 0;
+    top: 30px;
+    bottom: 0;
+    font-size: 30px;
+
+
+}
+main>section:nth-child(13)>aside>div:nth-child(2){
+    box-shadow: 6px 9px 20px 20px rgb(39, 70, 42);
+
+    border: 2px solid black;
+    height: 25vh;
+    background-color: rgba(75, 72, 72, 0.99);
+    align-self: center;
+    width: 32vw;
+    /*font-family: 'Rubik Dirt', cursive;*/
+}
+main>section:nth-child(13)>aside>div:nth-child(2)>p{
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 30px;
+    position: relative;
+    left: 100px;
+    right: 0;
+    margin: 0;
+    color: #ff253a;
+    display: inline-block;
+}
+main>section:nth-child(13)>aside>div:nth-child(2)>a{
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    right: 0;
+    top: 30px;
+    bottom: 0;
+    font-size: 30px;
+
+
+}
+main>section:nth-child(13)>aside>div:last-child{
+    box-shadow: 6px 9px 20px 20px rgb(39, 70, 42);
+    /*20px -6px 20px 20px rgb(24 23 23);*/
+    border: 2px solid black;
+    height: 25vh;
+    background-color: #4b4848;
+    align-self: self-start;
+    width: 32vw;
+    /*font-family: 'Rubik Dirt', cursive;*/
+}
+main>section:nth-child(13)>aside>div:last-child>p{
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 30px;
+    position: relative;
+    left: 100px;
+    right: 0;
+    margin: 0;
+    color: #ff253a;
+    display: inline-block;
+}
+main>section:nth-child(13)>aside>div:last-child>a{
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    left: 8px;
+    right: 0;
+    top: 50px;
+    bottom: 0;
+    font-size: 30px;
+}
+main>section:nth-child(13)>p:nth-child(5){
+    background-color: #1d1db4;
+    display: inline-block;
+    font-size: 35px;
+    position: relative;
+    left: 30vw;
+    right: 0;
+    top: 0;
+}
+main>section:nth-child(13)>div:nth-child(6){
+    /*background-color: #68c50e;*/
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+main>section:nth-child(13)>div:nth-child(6)>div{
+    width: 400px;
+    height: 400px;
+    /*background-color: #720c5d;*/
+}
+

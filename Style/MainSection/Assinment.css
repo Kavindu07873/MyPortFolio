@@ -1,0 +1,45 @@
+main>section:nth-child(11)>p>dfn{
+    box-shadow: 6px 9px 20px 20px rgb(24,23,23);
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 44vw;
+    font-size: 40px;
+    font-family: 'Rubik Dirt', cursive;
+    bottom: 0;
+    margin: auto;
+}
+main>section:nth-child(11)>aside{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+main>section:nth-child(11)>aside>div{
+    cursor: pointer;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+}
+main>section:nth-child(11)>aside>div>p{
+    font-size: 40px;
+    color: red;
+    display: inline-block;
+    margin: 0;
+
+
+}
+main>section:nth-child(11)>aside>div>a>img{
+    width: 250px;
+    height: 200px;
+}
+main>section:nth-child(11)>div>button{
+    color: red;
+    position: relative;
+    left: 43vw;
+    top: 23px;
+    font-size: 50px;
+
+}
