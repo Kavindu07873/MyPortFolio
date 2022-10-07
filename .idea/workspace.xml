@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="da8755b6-380d-458a-94e9-c184f787230b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/CSS/FrameWork/Pos/Page/Item.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/FrameWork/Pos/Page/Item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/CSS/FrameWork/Pos/Page/Orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/FrameWork/Pos/Page/Orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/FrameWork/Boostract Pos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,41 +34,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Project/DOG PARADISE Semester Project(ALL)&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "E:/2ND SEMESTER/InternateExplorer/Internet Tecnologie/MyPortFolio/MyPortFolio/Assets",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\FrameWork\Pos\Assets" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Animation\Case4\asset" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Framework" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Transition\Case1" />
-      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Assinment" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\FrameWork\Pos\Page" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Animation\Case2" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Portfolio_img" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\PortfolioImg" />
-      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Basic" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -169,7 +169,9 @@
       <workItem from="1664601817833" duration="9010000" />
       <workItem from="1664633027359" duration="8793000" />
       <workItem from="1664701371857" duration="1292000" />
-      <workItem from="1664702690613" duration="8409000" />
+      <workItem from="1664702690613" duration="8512000" />
+      <workItem from="1664776388003" duration="1765000" />
+      <workItem from="1664984110175" duration="7626000" />
     </task>
     <servers />
   </component>
