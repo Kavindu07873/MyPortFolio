@@ -22,18 +22,18 @@
     header{
         position: fixed;
         /*width: 1520px;*/
-        width: 93vw;
+        width: 96vw;
         /*border: 6px solid white;*/
-        height: 20vh;
+        height: 10vh;
         z-index: 6;
-        left: 0;
+        left: 1px;
         top: 0;
         background:linear-gradient(100deg,black,gray,black);
     }
     header>section:first-child{
         display: inline-block;
         position: absolute;
-        left: 115px;
+        left: 2px;
         top: 0;
         right: 0;
         bottom: 0;
@@ -46,10 +46,10 @@
 
     body>header>section:nth-child(2){
         position: absolute;
-        top: 50px;
-        left: -30px;
+        top: 0;
+        left: 100px;
         display: inline-block;
-        width: 425px;
+        width: 80vw;
         font-size: 10px;
         color: red;
 
@@ -72,8 +72,8 @@
 
     main>section:first-child{
         position: relative;
-        height: 150vh;
-        width: 94vw;
+        height: 124vh;
+        width: 96vw;
         /*border: 2px solid red;*/
     }
     main>section:first-child>p{
@@ -118,7 +118,7 @@
     }
     main>section:first-child>article>aside{
         position: relative;
-        top: 200px;
+        top: 35px;
         display: flex;
         height: 70px;
         width: 400px;
@@ -151,8 +151,8 @@
     main>section:first-child>article:last-child{
         display: inline-block;
         position: absolute;
-        right: 90px;
-        top: 561px;
+        right: 140px;
+        top: 460px;
         border-radius: 100%;
     }
     main>section:first-child>article:last-child>img{
@@ -166,16 +166,16 @@
 
     main>section:nth-child(3){
         position: relative;
-        height: 180vh;
-        width: 93vw;
+        height: 148vh;
+        width: 96vw;
         /*background-color: rebeccapurple;*/
     }
     main>section:nth-child(3)>p{
         box-shadow: 6px 9px 20px 20px rgb(24,23,23);
         display: inline-block;
         position: relative;
-        top: 10px;
-        left: 25vw;
+        top: 18px;
+        left: 41vw;
         font-size: 40px;
         font-family: 'Rubik Dirt', cursive;
         bottom: 0;
@@ -193,7 +193,7 @@
         display: inline-block;
         background-color: #c5700e;
         position: relative;
-        left: 10px;
+        left: 30vw;
         padding-left: 4px;
         height: 283px;
         width: 364px;
@@ -201,8 +201,8 @@
     /*/////Skills////////////////////////////////////////////*/
 
     main>section:nth-child(5){
-        height: 110vh;
-        width: 93vw;
+        height: 76vh;
+        width: 96vw;
     }
     main>section:nth-child(5)>div:first-child{
         height: 95px;
@@ -213,8 +213,8 @@
         box-shadow: 6px 9px 20px 20px rgb(24,23,23);
         display: inline-block;
         position: relative;
-        top: 10px;
-        left: 30vw;
+        top: 15px;
+        left: 42vw;
         font-size: 40px;
         font-family: 'Rubik Dirt', cursive;
         bottom: 0;
@@ -226,11 +226,11 @@
         position: relative;
         left: 34px;
         display: grid;
-        grid-template-rows: repeat(4,1fr);
-        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(4,1fr);
         column-gap: 10px;
-        gap: 5px 5px;
-        width: 75vw;
+        gap: 20px 100px;
+        width: 83vw;
     }
     main>section:nth-child(5)>div:last-child>div{
         /*box-shadow: 6px 9px 20px 20px rgb(25, 23, 23);*/
@@ -246,6 +246,8 @@
 
 
     /*!**!/////services//////////////////*/
+
+
 
     main>section:nth-child(7)>p>dfn{
         box-shadow: 6px 9px 20px 20px rgb(24,23,23);
@@ -263,7 +265,7 @@
         box-shadow: 6px 9px 20px 20px rgb(24,23,23);
         top: 30px;
         position: relative;
-        left: 18px;
+        left: 22vw;
         /*flex-direction: row;*/
         display: inline-block;
         /*justify-content: space-between;*/
@@ -394,6 +396,7 @@
         left: 68px;
         width: 200px
     }
+
 
     /*/////project///////////////////////////////////////////////////////////////*/
 
