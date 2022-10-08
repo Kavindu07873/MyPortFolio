@@ -247,7 +247,10 @@
 
     /*!**!/////services//////////////////*/
 
-
+    main>section:nth-child(7){
+        /*height: 76vh;*/
+        width: 96vw;
+    }
 
     main>section:nth-child(7)>p>dfn{
         box-shadow: 6px 9px 20px 20px rgb(24,23,23);
@@ -265,15 +268,20 @@
         box-shadow: 6px 9px 20px 20px rgb(24,23,23);
         top: 30px;
         position: relative;
-        left: 22vw;
+        left: 12vw;
         /*flex-direction: row;*/
-        display: inline-block;
+        display: grid;
+        grid-column: auto;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px 10px;
+        width: 72vw;
         /*justify-content: space-between;*/
     }
     main>section:nth-child(7)>div>div{
         box-shadow: 6px 9px 20px 20px rgb(63, 27, 27);
         border: 6px solid white;
-        width: 325px;
+        width: 350px;
         position: relative;
         font-size: 20px;
         font-family: 'Bungee Shade', cursive;
@@ -399,13 +407,17 @@
 
 
     /*/////project///////////////////////////////////////////////////////////////*/
+    main>section:nth-child(9){
+        /*height: 76vh;*/
+        width: 96vw;
+    }
 
     main>section:nth-child(9)>p>dfn{
         box-shadow: 6px 9px 20px 20px rgb(24,23,23);
         display: inline-block;
         position: relative;
         top: 10px;
-        left: 25vw;
+        left: 40vw;
         font-size: 40px;
         font-family: 'Rubik Dirt', cursive;
         bottom: 0;
@@ -417,11 +429,11 @@
 
         /*top: 30px;*/
         position: relative;
-        left: 20px;
-        /*flex-direction: row;*/
-        display: inline-block;
-        /*justify-content: space-around;*/
-        color: blue;
+        left: 0;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+        /*color: blue;*/
         /*background-color: #68c50e;*/
     }
 
@@ -493,6 +505,12 @@
     }
 
     /*////////Assinment//////////////////////////////////////////////////////////    */
+
+    main>section:nth-child(11){
+        /*height: 76vh;*/
+        width: 96vw;
+    }
+
     main>section:nth-child(11)>p>dfn{
         box-shadow: 6px 9px 20px 20px rgb(24,23,23);
         display: inline-block;
@@ -506,11 +524,11 @@
     }
     main>section:nth-child(11)>aside{
         position: relative;
-        display: block;
-        /*flex-direction: row;*/
+        display: flex;
+        flex-direction: row;
         align-items: center;
-        /*justify-content: space-around;*/
-        left: 60px;
+        justify-content: space-around;
+        left: 0;
 
     }
     main>section:nth-child(11)>aside>div{
@@ -544,7 +562,9 @@
 
 
     /*////Education/////////////////////////////////////////////////////////////*/
-
+    main>section:nth-child(13){
+        width: 96vw;
+    }
     main>section:nth-child(13)>p>dfn{
         box-shadow: 6px 9px 20px 20px rgb(24,23,23);
         display: inline-block;
@@ -583,7 +603,7 @@
         height: 25vh;
         background-color: #4b4848;
         align-self: self-end;
-        width:85vw;
+        width:35vw;
         margin-top: 20px;
 
     }
@@ -611,12 +631,14 @@
     }
     main>section:nth-child(13)>aside>div:nth-child(2){
         /*box-shadow: 6px 9px 20px 20px rgb(39, 70, 42);*/
-
+        position: relative;
+        left: 25vw;
+        right: 0;
         border: 2px solid black;
         height: 25vh;
         background-color: rgba(75, 72, 72, 0.99);
         align-self: center;
-        width: 85vw;
+        width: 35vw;
         margin-top: 20px;
 
         /*font-family: 'Rubik Dirt', cursive;*/
@@ -646,11 +668,14 @@
     main>section:nth-child(13)>aside>div:last-child{
         /*box-shadow: 6px 9px 20px 20px rgb(39, 70, 42);*/
         /*20px -6px 20px 20px rgb(24 23 23);*/
+        position: relative;
+        left: 50vw;
+        right: 0;
         border: 2px solid black;
         height: 25vh;
         background-color: #4b4848;
         align-self: self-start;
-        width: 85vw;
+        width: 36vw;
         margin-top: 20px;
         /*font-family: 'Rubik Dirt', cursive;*/
     }
@@ -700,7 +725,8 @@
 
     /*Galary*/
     main>section:nth-child(15){
-        height: 70vh;
+        height: 153vh;
+        width: 96vw;
     }
     main>section:nth-child(15)>div:nth-child(1)>p>dfn{
         /*background-color: #ff253a;*/
@@ -741,12 +767,15 @@
         background: url("../../Assets/Portfolio_img/Gallery/12.jpg");
         background-size: cover;
         background-position: center;
+        height: 250px;
     }
     main>section:nth-child(15)>div:nth-child(3)>div:nth-child(2){
         /*background-color: #121c13;*/
         /*background: url("../../Assets/Portfolio_img/Gallery/3.jpg");*/
         background-size: cover;
         background-position: center;
+        height: 250px;
+
     }
 
     main>section:nth-child(15)>div:nth-child(3)>div:nth-child(3){
@@ -756,12 +785,16 @@
         /*background: url("../../Assets/Portfolio_img/Gallery/6.jpg");*/
         background-size: cover;
         background-position: center;
+        height: 250px;
+
 
     }
     main>section:nth-child(15)>div:nth-child(3)>div:nth-child(4){
         /*background-color: #23d9b7;*/
         grid-column: 1/2;
         grid-row: 2/4;
+        height: 250px;
+
         /*background: url("../../Assets/Portfolio_img/Gallery/7.jpg");*/
         background-size: cover;
         background-position: center;
@@ -773,6 +806,7 @@
         background: url("../../Assets/Portfolio_img/Gallery/15.jpg");
         background-size: cover;
         background-position: left;
+        height: 250px;
 
 
     }
@@ -783,6 +817,7 @@
         /*background: url("../../Assets/Portfolio_img/Gallery/16.jpeg");*/
         background-size: cover;
         background-position: center;
+        height: 250px;
 
     }
     main>section:nth-child(15)>div:nth-child(3)>div:nth-child(7){
@@ -790,18 +825,24 @@
         /*background: url("../../Assets/Portfolio_img/Gallery/14.jpeg");*/
         background-size: cover;
         background-position: center;
+        height: 250px;
+
     }
     main>section:nth-child(15)>div:nth-child(3)>div:nth-child(8){
         /*background-color: #6969d7;*/
         /*background: url("../../Assets/Portfolio_img/Gallery/11.jpg");*/
         background-size: cover;
         background-position: center;
+        height: 250px;
+
     }
     main>section:nth-child(15)>div:nth-child(3)>div:nth-child(9){
         /*background-color: #a68f54;*/
         /*background: url("../../Assets/Portfolio_img/Gallery/15.jpg");*/
         background-size: cover;
         background-position: center;
+        height: 250px;
+
 
     }
     main>section:nth-child(15)>div:nth-child(1){
