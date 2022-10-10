@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ItemForm</title>
+  <title>CustomerForm</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="../../../../../Assets/Framework/css/bootstrap.min.css">
 
 </head>
-<body>
+<body style="width: 1524px">
 <header>
   <!--  //logo-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -29,9 +29,9 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a href="../DashBord.html" class="nav-link active" aria-current="page" href="#">Home</a>
-          <a href="Orders.html" class="nav-link active" aria-current="page" href="#">Orders</a>
-          <a href="Item.html" class="nav-link active" aria-current="page" href="#">Items</a>
-          <a href="Customer.html" class="nav-link active" aria-current="page" href="#">Customers</a>
+          <a class="nav-link active" aria-current="page" href="#">Orders</a>
+          <a class="nav-link active" aria-current="page" href="#">Items</a>
+          <a class="nav-link active" aria-current="page" href="#">Customers</a>
 
         </div>
       </div>
@@ -52,7 +52,6 @@
   </section>
 
 
-  <br>
   <br>
   <section>
     <!-- Button trigger modal -->
@@ -112,44 +111,68 @@
 
   </section>
   <br>
-  <br>
+
   <section>
+    <div style="width: 90vw" class="row">
+      <div  class="col">
+        <label  for="txtItemCode">Item Code</label>
 
-    <form style="width: 50%" class="d-flex col-3"  role="search">
-      <input class="form-control me-2 col-3" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
+        <input type="text" id="txtItemCode"  class="form-control d-inline-block" placeholder="I001" aria-label="ID">
+      </div>
+      <div class="col">
+        <label for="txtItemName">Item Name</label>
 
+        <input type="text" id="txtItemName" class="form-control d-inline-block" placeholder="Name" aria-label="Name">
+      </div>
+      <div class="col">
+        <label for="txtItemQuentity">Item Quenty</label>
 
-    <br>
-    <br>
+        <input type="number" id="txtItemQuentity" class="form-control" placeholder="10" aria-label="ContNo">
+      </div>
+      <div class="col">
+        <label for="txtItemPrice">Item Price</label>
 
-    <div class="d-grid gap-2 col-6 mx-auto">
-      <button class="btn btn-primary btn-outline-warning btn-success" type="button">UPDATE</button>
-      <button class="btn btn-primary btn-outline-danger btn-success" type="button">DELETE</button>
+        <input type="number" class="form-control" id="txtItemPrice" placeholder="2000.00" aria-label="Salary">
+      </div>
     </div>
 
-  </section>
+    <br>
+    <div class="row">
 
+      <div class="mb-3">
+        <label for="txtItemDescription"  class="form-label">Description</label>
+        <textarea style="width: 80vw" class="form-control" id="txtItemDescription" rows="3"></textarea>
+      </div>
+
+
+
+    </div>
+    <br><br>
+    <button type="button" id="SaveItem" class="btn btn-primary">Save</button>
+    <button type="button" class="btn btn-secondary">Remove</button>
+    <button type="button" class="btn btn-success">Update</button>
+    <button type="button" class="btn btn-danger">Delete</button>
+    <button type="button" class="btn btn-warning">Clearall</button>
+    <button type="button" id="LoadItem" class="btn btn-info">getall</button>
+  </section>
   <br>
   <br>
-  <br>
+
+
   <section>
     <table style="width: 95%" border="2px solid red"   class="col table table-bordered border-primary table-dark table-striped">
       <thead>
       <tr class="table-dark table-striped">
-        <th scope="col">No</th>
         <th scope="col">ItemCode</th>
         <th scope="col">ItemName</th>
-        <th scope="col">Description</th>
-        <th scope="col">Price</th>
         <th scope="col">Qty</th>
+        <th scope="col">Price</th>
+        <th scope="col">Description</th>
       </tr>
       </thead>
-      <tbody >
+      <tbody  id="tblItem">
       <tr >
         <td scope="row">1</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -162,12 +185,10 @@
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
 
       </tr>
       <tr>
         <td>3</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -181,9 +202,66 @@
   </section>
 
 
-
 </main>
 <script src="../../../../../Assets/Framework/js/bootstrap.min.js"></script>
+<script src="../../../../../Assets/Framework/js/jquery-3.6.1.min.js"></script>
 
+<script>
+  // make arry calle customer
+  var Item = [];
+
+  $("#SaveItem").click(function (){
+
+    let  ItemCode = $("#txtItemCode").val();
+    let  ItemName = $("#txtItemName").val();
+    let  ItemQty = $("#txtItemQuentity").val();
+    let  ItemPrice = $("#txtItemPrice").val();
+    let  ItemDescription = $("#txtItemDescription").val();
+
+    var  ItemObject = {
+      Code : ItemCode,
+      Name : ItemName,
+      Qty : ItemQty,
+      Price : ItemPrice,
+      Description : ItemDescription,
+    }
+
+// put object to customer array
+
+    Item.push(ItemObject);
+    alert(Item);
+    loadAllItemDetails()
+
+  });
+
+  $("#LoadItem").click(function (){
+    loadAllItemDetails()
+  });
+
+
+
+  function loadAllItemDetails(){
+
+    // remove all data from the table
+    $("#tblItem").empty();
+
+    // get all customer records from the array
+    for (var item of Item) {
+      // console.log(customer);// customer object
+
+      // add those data to the table row
+      // var row= "<tr><td>"+customer.id+"</td><td>"+customer.name+"</td><td>"+customer.address+"</td><td>"+customer.salary+"</td></tr>";
+
+      // Using String Literals to do the same thing as above
+      var row = `<tr><td>${item.Code}</td><td>${item.Name}</td><td>${item.Qty}</td><td>${item.Price}</td><td>${item.Description}</td></tr>`;
+
+      //then add it to the table body of customer table
+      $("#tblItem").append(row);
+
+    }
+
+  }
+
+</script>
 </body>
 </html>

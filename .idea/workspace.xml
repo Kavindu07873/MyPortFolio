@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="da8755b6-380d-458a-94e9-c184f787230b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Style/Responsive/779-1024Responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Responsive/779-1024Responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/FrameWork/Pos/Page/Customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/FrameWork/Pos/Page/Customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/FrameWork/Pos/Page/Item.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/FrameWork/Pos/Page/Item.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/2ND SEMESTER/InternateExplorer/Internet Tecnologie/MyPortFolio/MyPortFolio/Assets&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/2ND SEMESTER/InternateExplorer/Internet Tecnologie/MyPortFolio/MyPortFolio/Assets/Framework/js&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -56,11 +57,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Framework\js" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\FrameWork\Pos\Assets" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Animation\Case4\asset" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Framework" />
-      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Transition\Case1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Assinment" />
@@ -175,7 +176,10 @@
       <workItem from="1665132754456" duration="1607000" />
       <workItem from="1665134382909" duration="1624000" />
       <workItem from="1665157293136" duration="8402000" />
-      <workItem from="1665243273649" duration="1759000" />
+      <workItem from="1665243273649" duration="2217000" />
+      <workItem from="1665404574733" duration="1776000" />
+      <workItem from="1665406386445" duration="43000" />
+      <workItem from="1665406450081" duration="4665000" />
     </task>
     <servers />
   </component>
