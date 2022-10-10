@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SPA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../Assets/Framework/css/bootstrap.min.css">
+</head>
+<body>
+<header>
+    <!--  //logo-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Assets/dKP.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Dkp-Product  </a>
+        </div>
+
+        <!--/links-->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a href="DashBord.html" class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a href="Page/Orders.html" class="nav-link active" aria-current="page" href="#">Orders</a>
+                    <a href="Page/Item.html" class="nav-link active" aria-current="page" href="#">Items</a>
+                    <a href="Page/Customer.html" class="nav-link active" aria-current="page" href="#">Customers</a>
+
+                </div>
+            </div>
+            <!--  Search-->
+        </div>
+
+        <div class="container-fluid">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+</header>
+<!--DashBoard-->
+<main>
+
+    <section  class="p-3 mb-2 bg-secondary text-white">
+
+        <div class="row justify-content-around">
+            <div class="col-4">
+                <div class="d-flex flex-column mb-3">
+
+                    <div class="p-2">
+                        <h1> <span class="badge bg-secondary"></span>ItemDetails</h1>
+                    </div>
+
+                    <div class="p-2">
+                        <a href="Page/Item.html" >
+                            <img style="width: 300px" height="250px" src="Assets/lost-items-line-vector-icon-260nw-1436787446.webp" alt="gitHub">
+                        </a>
+                    </div>
+                </div>      </div>
+            <div class="col-4">
+                <div class="d-flex flex-column mb-3">
+                    <div class="p-2">
+                        <h1> <span class="badge bg-secondary"></span>Customer Details</h1>
+                    </div>
+
+                    <div class="p-2">
+                        <a href="Page/Customer.html" >
+                            <img style="width: 300px" height="250px" src="Assets/download.jpeg" alt="gitHub">
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container text-center">
+            <div class="row">
+
+
+
+                <div class="d-flex flex-column mb-3">
+                    <div class="p-2">
+                        <h1> <span class="badge bg-secondary"></span>Place Order</h1>
+                    </div>
+                    <div class="p-2">
+                        <a href="Page/Orders.html" >
+                            <img style="width: 250px" height="250px" src="Assets/download%20(1).jpeg" alt="gitHub">
+                        </a>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+</main>
+<!--CustomerForm-->
+<main>
+    <section>
+        <h1 class="bg-success p-2 text-white bg-opacity-75">Customer Details</h1>
+    </section>
+    <br>
+    <section>
+        <!-- Button trigger modal -->
+        <button  type="button" class="btn btn-primary bg-danger float-end" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Add New Customer
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel2">Add New Customers</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="ID" aria-label="ID">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="ContNo" aria-label="ContNo">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Address" aria-label="Address">
+                            </div>
+
+                        </div>
+
+                        <br>
+
+
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary"  >Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <br>
+
+    <section>
+        <div class="row">
+            <div class="col">
+                <label for="txtCustomerID">Customer ID</label>
+
+                <input type="text" id="txtCustomerID"  class="form-control d-inline-block" placeholder="C001" aria-label="ID">
+            </div>
+            <div class="col">
+                <label for="txtCustomerName">Customer Name</label>
+
+                <input type="text" id="txtCustomerName" class="form-control d-inline-block" placeholder="Kamal" aria-label="Name">
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col">
+                <label for="txtCustomerContNo">Customer ContNO</label>
+
+                <input type="number" id="txtCustomerContNo" class="form-control" placeholder="+940771530632" aria-label="ContNo">
+            </div>
+            <div class="col">
+                <label for="txtCustomerAddress">Customer Address</label>
+
+                <input type="text" class="form-control" id="txtCustomerAddress" placeholder="Galle" aria-label="Address">
+            </div>
+
+
+            <div class="col">
+                <label for="txtCustomerSalary">Customer Salary</label>
+
+                <input type="number" class="form-control" id="txtCustomerSalary" placeholder="20000.00" aria-label="Salary">
+            </div>
+
+        </div>
+        <br><br>
+        <button type="button" id="SaveCustomer" class="btn btn-primary">Save</button>
+        <button type="button" class="btn btn-secondary">Remove</button>
+        <button type="button" class="btn btn-success">Update</button>
+        <button type="button" class="btn btn-danger">Delete</button>
+        <button type="button" class="btn btn-warning">Clearall</button>
+        <button type="button" id="LoadAllCustomer" class="btn btn-info">getall</button>
+    </section>
+    <br>
+    <br>
+    <section>
+        <table  style="width: 95%" border="2px solid red"   class="col table table-bordered border-primary table-dark table-striped">
+            <thead>
+            <tr class="table-dark table-striped">
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">ContNo</th>
+                <th scope="col">Address</th>
+                <th scope="col">Salary</th>
+            </tr>
+            </thead>
+            <tbody id="tblCustomer" >
+            <tr >
+                <td scope="row">1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+
+            </tbody>
+        </table>
+
+    </section>
+</main>
+<!--ItemForm-->
+<main>
+    <section>
+        <h1 class="bg-success p-2 text-white bg-opacity-75">Item Details</h1>
+    </section>
+
+
+    <br>
+    <section>
+        <!-- Button trigger modal -->
+        <button  type="button" class="btn btn-primary  btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Add New Items
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Add New Items</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="ItemCode" aria-label="ItemCode">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="ItemName" aria-label="ItemName">
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="row">
+                            <div class="col">
+                                <input type="number" class="form-control" placeholder="Price" aria-label="Price">
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control" placeholder="Qty" aria-label="Qty">
+                            </div>
+
+                        </div>
+
+                        <br>
+
+                        <br>
+                        <br>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <br>
+
+    <section>
+        <div style="width: 90vw" class="row">
+            <div  class="col">
+                <label  for="txtItemCode">Item Code</label>
+
+                <input type="text" id="txtItemCode"  class="form-control d-inline-block" placeholder="I001" aria-label="ID">
+            </div>
+            <div class="col">
+                <label for="txtItemName">Item Name</label>
+
+                <input type="text" id="txtItemName" class="form-control d-inline-block" placeholder="Name" aria-label="Name">
+            </div>
+            <div class="col">
+                <label for="txtItemQuentity">Item Quenty</label>
+
+                <input type="number" id="txtItemQuentity" class="form-control" placeholder="10" aria-label="ContNo">
+            </div>
+            <div class="col">
+                <label for="txtItemPrice">Item Price</label>
+
+                <input type="number" class="form-control" id="txtItemPrice" placeholder="2000.00" aria-label="Salary">
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+
+            <div class="mb-3">
+                <label for="txtItemDescription"  class="form-label">Description</label>
+                <textarea style="width: 80vw" class="form-control" id="txtItemDescription" rows="3"></textarea>
+            </div>
+
+
+
+        </div>
+        <br><br>
+        <button type="button" id="SaveItem" class="btn btn-primary">Save</button>
+        <button type="button" class="btn btn-secondary">Remove</button>
+        <button type="button" class="btn btn-success">Update</button>
+        <button type="button" class="btn btn-danger">Delete</button>
+        <button type="button" class="btn btn-warning">Clearall</button>
+        <button type="button" id="LoadItem" class="btn btn-info">getall</button>
+    </section>
+    <br>
+    <br>
+
+
+    <section>
+        <table style="width: 95%" border="2px solid red"   class="col table table-bordered border-primary table-dark table-striped">
+            <thead>
+            <tr class="table-dark table-striped">
+                <th scope="col">ItemCode</th>
+                <th scope="col">ItemName</th>
+                <th scope="col">Qty</th>
+                <th scope="col">Price</th>
+                <th scope="col">Description</th>
+            </tr>
+            </thead>
+            <tbody  id="tblItem">
+            <tr >
+                <td scope="row">1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+
+            </tbody>
+        </table>
+
+    </section>
+
+
+</main>
+<!--OrderForm-->
+<main >
+
+    <section>
+        <h1 class="bg-success p-2 text-white bg-opacity-75">Order Details</h1>
+    </section>
+
+    <section>
+
+        <div class="container-fluid text-start ">
+            <div class="row ">
+                <div style="border: 2px solid red" class="col ">
+                    <div class="row">
+                        <h1 class="bg-success p-2 text-black bg-opacity-75">Invoice Details</h1>
+
+                        <div class="d-flex justify-content-around">
+
+                            <div class="mb-3">
+                                <label for="OrderId" class="form-label text-black">OrderID</label>
+                                <input type="text" class="form-control" id="OrderId" placeholder="D001">
+                            </div>
+
+
+                            <div class="mb-3">
+                                <label for="Date" class="form-label text-black">Date</label>
+                                <input type="date" class="form-control" id="Date" >
+                            </div>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div class="row">
+
+                        <div class="mb-3">
+                            <label for="Customerid" class="form-label text-black">Customerid</label>
+                            <select class="form-label" id="Customerid" aria-label="Default select example">
+                                <!--                            <option selected>C001</option>-->
+                                <option value="1">C001</option>
+                                <option value="2">C002</option>
+                                <option value="3">C003</option>
+                            </select>                    </div>
+
+
+                    </div>
+                    <br>
+
+                    <div class="d-flex justify-content-evenly">
+
+                        <div class="mb-3">
+                            <label for="Name" class="form-label text-black">Name</label>
+                            <input type="text" class="form-control" id="Name" placeholder="Kamal">
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label for="ContNo" class="form-label text-black">ContNo</label>
+                            <input type="number" class="form-control" id="ContNo" placeholder="+9477153032" >
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label for="Address" class="form-label text-black">Address</label>
+                            <input type="text" class="form-control" id="Address" placeholder="Galle">
+                        </div>
+                    </div>
+                </div>
+
+                <div style="border: 2px solid red"  class="col">
+                    <div class="row">
+                        <div>
+                            <h1 class="bg-success p-2 text-black bg-opacity-75">Product Details</h1>
+
+                        </div>
+
+                        <br>
+
+                        <div class="mb-3">
+                            <label for="ItemCode" class="form-label text-black col-form-label-lg">ItemCode</label>
+                            <select class="form-label" id="ItemCode" aria-label="Default select example">
+                                <option value="1">I001</option>
+                                <option value="2">I002</option>
+                                <option value="3">I003</option>
+                            </select>
+                        </div>
+
+                        <br>
+
+                        <div class="d-flex justify-content-evenly">
+
+                            <div class="mb-3">
+                                <label for="ItemName" class="form-label text-black">ItemName</label>
+                                <input type="text" class="form-control" id="ItemName" placeholder="Rice">
+                            </div>
+
+
+                            <div class="mb-3">
+                                <label for="Price" class="form-label text-black">Price</label>
+                                <input type="number" class="form-control" id="Price" placeholder="500.00" >
+                            </div>
+
+
+                            <div class="mb-3">
+                                <label for="QtyOnHand" class="form-label text-black">QtyOnHand</label>
+                                <input type="number" class="form-control" id="QtyOnHand" placeholder="10">
+                            </div>
+                        </div>
+
+                        <br>
+                        <br>
+                        <br>
+
+                        <div>
+                            <br>
+
+                            <div class="form-floating mb-3">
+                                <input type="number" class="form-control" id="floatingInput">
+                                <label for="ItemName" class="form-label text-black">Order Quentity</label>
+                            </div>
+                        </div>
+
+                        <div class="text-end">
+                            <button type="button" class="btn btn-danger  btn-lg">Add Item</button>
+
+                        </div>
+                        <br>
+                        <br>
+
+                    </div>
+                    <br>
+                </div>
+
+                <div style="border: 2px solid red"  class="col">
+
+                    <div class="form-floating">
+                        <h1 class="bg-dark p-2 text-white ">Total</h1>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    </div>
+
+                    <div class="d-flex justify-content-evenly">
+
+                        <div class="mb-3">
+                            <label for="Cash" class="form-label text-black">Cash</label>
+                            <input type="number" class="form-control" id="Cash" placeholder="1000.00">
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label for="Discount" class="form-label text-black">Discount</label>
+                            <input type="number" class="form-control" id="Discount" placeholder="10%" >
+                        </div>
+
+                    </div>
+
+
+                    <div class="mb-3 col-5 ">
+                        <label for="Balance" class="form-label text-black">Balance</label>
+                        <input type="number" class="form-control " id="Balance">
+                    </div>
+
+                    <div class="text-end">
+                        <button type="button" class="btn btn-success  btn-lg">Purchase</button>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <br>
+    <section>
+        <table style="width: 100%" border="2px solid red"   class="col table table-bordered border-primary table-dark  table-striped">
+            <thead>
+            <tr class="table-dark table-striped">
+                <th scope="col">No</th>
+                <th scope="col">ItemCode</th>
+                <th scope="col">ItemName</th>
+                <th scope="col">Price</th>
+                <th scope="col">Qty</th>
+                <th scope="col">Total</th>
+
+            </tr>
+            </thead>
+            <tbody >
+            <tr >
+                <td scope="row">1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+
+            </tbody>
+        </table>
+
+    </section>
+
+
+</main>
+
+
+
+<script src="../../../Assets/Framework/js/bootstrap.min.js"></script>
+
+</body>
+</html>
