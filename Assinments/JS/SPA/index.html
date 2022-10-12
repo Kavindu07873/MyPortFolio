@@ -26,10 +26,10 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a href="DashBord.html" class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a href="Page/Orders.html" class="nav-link active" aria-current="page" href="#">Orders</a>
-                    <a href="Page/Item.html" class="nav-link active" aria-current="page" href="#">Items</a>
-                    <a href="Page/Customer.html" class="nav-link active" aria-current="page" href="#">Customers</a>
+                    <a id="HomeButton" class="nav-link active"  href="#">Home</a>
+                    <a href="Page/Orders.html" id="OrdersButton" class="nav-link active" aria-current="page" href="#">Orders</a>
+                    <a href="Page/Item.html"  id="ItemButton" class="nav-link active" aria-current="page" href="#">Items</a>
+                    <a href="Page/Customer.html" id="CustomerButton" class="nav-link active" aria-current="page" href="#">Customers</a>
 
                 </div>
             </div>
@@ -44,8 +44,9 @@
         </div>
     </nav>
 </header>
+
 <!--DashBoard-->
-<main>
+<main id="DashBoardContent">
 
     <section  class="p-3 mb-2 bg-secondary text-white">
 
@@ -109,153 +110,163 @@
 
 
 </main>
+
+
+
 <!--CustomerForm-->
-<main>
-    <section>
-        <h1 class="bg-success p-2 text-white bg-opacity-75">Customer Details</h1>
-    </section>
-    <br>
-<!--    <section>-->
-<!--        &lt;!&ndash; Button trigger modal &ndash;&gt;-->
-<!--        <button  type="button" class="btn btn-primary bg-danger float-end" data-bs-toggle="modal" data-bs-target="#exampleModal">-->
-<!--            Add New Customer-->
-<!--        </button>-->
+<section>
+    <main id="CustomerContent">
+        <section>
+            <h1 class="bg-success p-2 text-white bg-opacity-75">Customer Details</h1>
+        </section>
+        <br>
+        <section>
 
-<!--        &lt;!&ndash; Modal &ndash;&gt;-->
-<!--        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">-->
-<!--            <div class="modal-dialog">-->
-<!--                <div class="modal-content">-->
-<!--                    <div class="modal-header">-->
-<!--                        <h5 class="modal-title" id="exampleModalLabel">Add New Customers</h5>-->
-<!--                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
-<!--                    </div>-->
-<!--                    <div class="modal-body">-->
-<!--                        <div class="row">-->
-<!--                            <div class="col">-->
-<!--                                <input type="text" class="form-control" placeholder="ID" aria-label="ID">-->
-<!--                            </div>-->
-<!--                            <div class="col">-->
-<!--                                <input type="text" class="form-control" placeholder="Name" aria-label="Name">-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <br>-->
-<!--                        <br>-->
-<!--                        <div class="row">-->
-<!--                            <div class="col">-->
-<!--                                <input type="text" class="form-control" placeholder="ContNo" aria-label="ContNo">-->
-<!--                            </div>-->
-<!--                            <div class="col">-->
-<!--                                <input type="text" class="form-control" placeholder="Address" aria-label="Address">-->
-<!--                            </div>-->
+            <!--    <section>-->
+            <!--        &lt;!&ndash; Button trigger modal &ndash;&gt;-->
+            <!--        <button  type="button" class="btn btn-primary bg-danger float-end" data-bs-toggle="modal" data-bs-target="#exampleModal">-->
+            <!--            Add New Customer-->
+            <!--        </button>-->
 
-<!--                        </div>-->
+            <!--        &lt;!&ndash; Modal &ndash;&gt;-->
+            <!--        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">-->
+            <!--            <div class="modal-dialog">-->
+            <!--                <div class="modal-content">-->
+            <!--                    <div class="modal-header">-->
+            <!--                        <h5 class="modal-title" id="exampleModalLabel">Add New Customers</h5>-->
+            <!--                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+            <!--                    </div>-->
+            <!--                    <div class="modal-body">-->
+            <!--                        <div class="row">-->
+            <!--                            <div class="col">-->
+            <!--                                <input type="text" class="form-control" placeholder="ID" aria-label="ID">-->
+            <!--                            </div>-->
+            <!--                            <div class="col">-->
+            <!--                                <input type="text" class="form-control" placeholder="Name" aria-label="Name">-->
+            <!--                            </div>-->
+            <!--                        </div>-->
+            <!--                        <br>-->
+            <!--                        <br>-->
+            <!--                        <div class="row">-->
+            <!--                            <div class="col">-->
+            <!--                                <input type="text" class="form-control" placeholder="ContNo" aria-label="ContNo">-->
+            <!--                            </div>-->
+            <!--                            <div class="col">-->
+            <!--                                <input type="text" class="form-control" placeholder="Address" aria-label="Address">-->
+            <!--                            </div>-->
 
-<!--                        <br>-->
+            <!--                        </div>-->
+
+            <!--                        <br>-->
 
 
 
 
-<!--                    </div>-->
-<!--                    <div class="modal-footer">-->
-<!--                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
-<!--                        <button type="button" class="btn btn-primary"  >Save</button>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+            <!--                    </div>-->
+            <!--                    <div class="modal-footer">-->
+            <!--                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+            <!--                        <button type="button" class="btn btn-primary"  >Save</button>-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--            </div>-->
+            <!--        </div>-->
 
-<!--    </section>-->
-    <br>
-
-    <section>
-        <div class="row">
-            <div class="col">
-                <label for="txtCustomerID">Customer ID</label>
-
-                <input type="text" id="txtCustomerID"  class="form-control d-inline-block" placeholder="C001" aria-label="ID">
-            </div>
-            <div class="col">
-                <label for="txtCustomerName">Customer Name</label>
-
-                <input type="text" id="txtCustomerName" class="form-control d-inline-block" placeholder="Kamal" aria-label="Name">
-            </div>
-        </div>
+            <!--    </section>-->
+        </section>
 
         <br>
-        <div class="row">
-            <div class="col">
-                <label for="txtCustomerContNo">Customer ContNO</label>
 
-                <input type="number" id="txtCustomerContNo" class="form-control" placeholder="+940771530632" aria-label="ContNo">
-            </div>
-            <div class="col">
-                <label for="txtCustomerAddress">Customer Address</label>
+        <section>
+            <div class="row">
+                <div class="col">
+                    <label for="txtCustomerID">Customer ID</label>
 
-                <input type="text" class="form-control" id="txtCustomerAddress" placeholder="Galle" aria-label="Address">
-            </div>
+                    <input type="text" id="txtCustomerID"  class="form-control d-inline-block" placeholder="C001" aria-label="ID">
+                </div>
+                <div class="col">
+                    <label for="txtCustomerName">Customer Name</label>
 
-
-            <div class="col">
-                <label for="txtCustomerSalary">Customer Salary</label>
-
-                <input type="number" class="form-control" id="txtCustomerSalary" placeholder="20000.00" aria-label="Salary">
+                    <input type="text" id="txtCustomerName" class="form-control d-inline-block" placeholder="Kamal" aria-label="Name">
+                </div>
             </div>
 
-        </div>
-        <br><br>
-        <button type="button" id="SaveCustomer" class="btn btn-primary">Save</button>
-        <button type="button" class="btn btn-secondary">Remove</button>
-        <button type="button" class="btn btn-success">Update</button>
-        <button type="button" class="btn btn-danger">Delete</button>
-        <button type="button" class="btn btn-warning">Clearall</button>
-        <button type="button" id="LoadAllCustomer" class="btn btn-info">getall</button>
-    </section>
-    <br>
-    <br>
-    <section>
-        <table  style="width: 95%" border="2px solid red"   class="col table table-bordered border-primary table-dark table-striped">
-            <thead>
-            <tr class="table-dark table-striped">
-                <th scope="col">Id</th>
-                <th scope="col">Name</th>
-                <th scope="col">ContNo</th>
-                <th scope="col">Address</th>
-                <th scope="col">Salary</th>
-            </tr>
-            </thead>
-            <tbody id="tblCustomer" >
-            <tr >
-                <td scope="row">1</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <label for="txtCustomerContNo">Customer ContNO</label>
 
-            </tr>
-            <tr>
-                <td>2</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                    <input type="number" id="txtCustomerContNo" class="form-control" placeholder="+940771530632" aria-label="ContNo">
+                </div>
+                <div class="col">
+                    <label for="txtCustomerAddress">Customer Address</label>
 
-            </tr>
-            <tr>
-                <td>3</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                    <input type="text" class="form-control" id="txtCustomerAddress" placeholder="Galle" aria-label="Address">
+                </div>
 
-            </tr>
 
-            </tbody>
-        </table>
+                <div class="col">
+                    <label for="txtCustomerSalary">Customer Salary</label>
 
-    </section>
-</main>
+                    <input type="number" class="form-control" id="txtCustomerSalary" placeholder="20000.00" aria-label="Salary">
+                </div>
+
+            </div>
+            <br><br>
+            <button type="button" id="SaveCustomer" class="btn btn-primary">Save</button>
+            <button type="button" class="btn btn-secondary">Remove</button>
+            <button type="button" class="btn btn-success">Update</button>
+            <button type="button" class="btn btn-danger">Delete</button>
+            <button type="button" class="btn btn-warning">Clearall</button>
+            <button type="button" id="LoadAllCustomer" class="btn btn-info">getall</button>
+        </section>
+        <br>
+        <br>
+        <section>
+            <table  style="width: 95%" border="2px solid red"   class="col table table-bordered border-primary table-dark table-striped">
+                <thead>
+                <tr class="table-dark table-striped">
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">ContNo</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Salary</th>
+                </tr>
+                </thead>
+                <tbody id="tblCustomer" >
+                <tr >
+                    <td scope="row">1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+
+                </tbody>
+            </table>
+
+        </section>
+    </main>
+</section>
+
 <!--ItemForm-->
-<main>
+<main id="ItemContent">
     <section>
         <h1 class="bg-success p-2 text-white bg-opacity-75">Item Details</h1>
     </section>
@@ -413,7 +424,7 @@
 
 </main>
 <!--OrderForm-->
-<main >
+<main id="OrdersContent" >
 
     <section>
         <h1 class="bg-success p-2 text-white bg-opacity-75">Order Details</h1>
@@ -638,6 +649,178 @@
 
 
 <script src="../../../Assets/Framework/js/bootstrap.min.js"></script>
+
+<script src="../../../Assets/Framework/js/bootstrap.min.js"></script>
+<script src="../../../Assets/Framework/js/jquery-3.6.1.min.js"></script>
+
+<!--index js-->
+
+<script>
+    $("#HomeButton").click(function (){
+        $("#OrdersContent").css('display','none');
+        $("#ItemContent").css('display','none');
+        $("#CustomerContent").css('display','none');
+        $("#DashBoardContent").css('display','block');
+
+    });
+</script>
+
+
+<!--Customer js-->
+<script>
+
+
+
+    //  //validation Part eka regular expreshan walin
+    //var CusIdRegEx = /^(C)[0-9]{1,3}$/
+    //
+    //  //make Array for validation
+    //  var CusValidation = [];
+    //  //Add data to validation Arrray
+    //  //mekata data danne object vidiyata
+    //  CusValidation.push({
+    //    reg:CusIdRegEx,
+    //    field : $("#txtCustomerID"),
+    //    error : 'Customer id Paten Is Wrong'
+    //  })
+    //
+    //
+
+
+
+
+    // make arry called customer
+    var Customer = [];
+
+
+    $("#SaveCustomer").click(function (){
+
+        let  cusid = $("#txtCustomerID").val();
+        let  cusName = $("#txtCustomerName").val();
+        let  cusAddress = $("#txtCustomerAddress").val();
+        let  cusConNo = $("#txtCustomerContNo").val();
+        let  cusSalary = $("#txtCustomerSalary").val();
+
+        var CustomerObject = {
+            id : cusid,
+            Name : cusName,
+            Address : cusAddress,
+            ConNo : cusConNo,
+            Salary : cusSalary
+        }
+
+// put object to customer array
+        Customer.push(CustomerObject);
+
+        loadAllCustomerDetails()
+        EventBinding();
+
+    });
+
+    $("#LoadAllCustomer").click(function (){
+        loadAllCustomerDetails()
+        EventBinding();
+    });
+
+    //Enter Button use for textfield
+    $("#txtCustomerID").on('keydown',function (event){
+
+        if (event.key == "Enter"){
+            $("#txtCustomerName").focus();
+        }
+
+    });
+
+    $("#txtCustomerName").on('keydown',function (event){
+
+        if (event.key == "Enter"){
+            $("#txtCustomerContNo").focus();
+        }
+
+    });
+
+    $("#txtCustomerContNo").on('keydown',function (event){
+
+        if (event.key == "Enter"){
+            $("#txtCustomerAddress").focus();
+        }
+
+    });
+
+    $("#txtCustomerAddress").on('keydown',function (event){
+
+        if (event.key == "Enter"){
+            $("#txtCustomerSalary").focus();
+        }
+
+    });
+
+    $("#txtCustomerSalary").on('keydown',function (event){
+
+        if (event.key == "Enter"){
+            confirm("Do You Want To Add This Customer...?")
+            $("#SaveCustomer").focus();
+        }
+
+    });
+
+    // Tap Button Remove
+    $("#txtCustomerID,#txtCustomerName,#txtCustomerContNo,#txtCustomerAddress,#txtCustomerSalary").on('keydown' , function (event){
+
+        if (event.key == "Tab"){
+            event.preventDefault();
+        }
+    });
+
+
+    function loadAllCustomerDetails(){
+
+        // remove all data from the table
+        $("#tblCustomer").empty();
+
+        // get all customer records from the array
+        for (var customer of Customer) {
+            // Using String Literals to do the same thing as above
+            var row = `<tr><td>${customer.id}</td><td>${customer.Name}</td><td>${customer.ConNo}</td><td>${customer.Address}</td><td>${customer.Salary}</td></tr>`;
+
+            //then add it to the table body of customer table
+            $("#tblCustomer").append(row);
+
+        }
+
+    }
+
+
+    //  mehidi table eka click karama data print we
+    function EventBinding(){
+        $("#tblCustomer>tr").click(function (){
+            let id = $(this).children(":eq(0)").text();
+            let Name = $(this).children(":eq(1)").text();
+            let ConNo = $(this).children(":eq(2)").text();
+            let Address = $(this).children(":eq(3)").text();
+            let Salary = $(this).children(":eq(4)").text();
+
+            //  tble eke textfild walata data add karanawa
+            $("#txtCustomerID").val(id);
+            $("#txtCustomerName").val(Name);
+            $("#txtCustomerAddress").val(Address);
+            $("#txtCustomerContNo").val(ConNo);
+            $("#txtCustomerSalary").val(Salary);
+
+        });
+
+        //double click remove table colom
+        $("#tblCustomer>tr").on('dblclick',function (){
+            $(this).remove();
+        });
+
+    }
+
+
+
+</script>
+
+
 
 </body>
 </html>
