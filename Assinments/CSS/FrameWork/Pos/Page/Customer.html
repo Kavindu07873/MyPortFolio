@@ -198,8 +198,13 @@
 <script src="../../../../../Assets/Framework/js/bootstrap.min.js"></script>
 <script src="../../../../../Assets/Framework/js/jquery-3.6.1.min.js"></script>
 <script>
+
+
+
   // make arry calle customer
   var Customer = [];
+
+
 
   $("#SaveCustomer").click(function (){
 
@@ -218,33 +223,76 @@ var CustomerObject = {
 }
 
 // put object to customer array
-
     Customer.push(CustomerObject);
-console.log(CustomerObject);
-    console.log(Customer);
-alert(Customer);
-loadAllCustomerDetails()
+
+        loadAllCustomerDetails()
+        EventBinding();
 
   });
 
   $("#LoadAllCustomer").click(function (){
-loadAllCustomerDetails()
+          loadAllCustomerDetails()
+          EventBinding();
+  });
+
+//Enter Button use for textfield
+  $("#txtCustomerID").on('keydown',function (event){
+
+    if (event.key == "Enter"){
+      $("#txtCustomerName").focus();
+    }
+
+  });
+
+  $("#txtCustomerName").on('keydown',function (event){
+
+    if (event.key == "Enter"){
+      $("#txtCustomerContNo").focus();
+    }
+
+  });
+
+  $("#txtCustomerContNo").on('keydown',function (event){
+
+    if (event.key == "Enter"){
+      $("#txtCustomerAddress").focus();
+    }
+
+  });
+
+  $("#txtCustomerAddress").on('keydown',function (event){
+
+    if (event.key == "Enter"){
+      $("#txtCustomerSalary").focus();
+    }
+
+  });
+
+  $("#txtCustomerSalary").on('keydown',function (event){
+
+    if (event.key == "Enter"){
+      confirm("Do You Want To Add This Customer...?")
+      $("#SaveCustomer").focus();
+    }
+
+  });
+
+// Tap Button Remove
+  $("#txtCustomerID,#txtCustomerName,#txtCustomerContNo,#txtCustomerAddress,#txtCustomerSalary").on('keydown' , function (event){
+
+    if (event.key == "Tab"){
+      event.preventDefault();
+    }
   });
 
 
-
-function loadAllCustomerDetails(){
+  function loadAllCustomerDetails(){
 
   // remove all data from the table
   $("#tblCustomer").empty();
 
   // get all customer records from the array
   for (var customer of Customer) {
-    // console.log(customer);// customer object
-
-    // add those data to the table row
-    // var row= "<tr><td>"+customer.id+"</td><td>"+customer.name+"</td><td>"+customer.address+"</td><td>"+customer.salary+"</td></tr>";
-
     // Using String Literals to do the same thing as above
     var row = `<tr><td>${customer.id}</td><td>${customer.Name}</td><td>${customer.ConNo}</td><td>${customer.Address}</td><td>${customer.Salary}</td></tr>`;
 
@@ -254,6 +302,34 @@ function loadAllCustomerDetails(){
   }
 
   }
+
+
+//  mehidi table eka click karama data print we
+    function EventBinding(){
+  $("#tblCustomer>tr").click(function (){
+    let id = $(this).children(":eq(0)").text();
+    let Name = $(this).children(":eq(1)").text();
+    let ConNo = $(this).children(":eq(2)").text();
+    let Address = $(this).children(":eq(3)").text();
+    let Salary = $(this).children(":eq(4)").text();
+
+  //  tble eke textfild walata data add karanawa
+    $("#txtCustomerID").val(id);
+   $("#txtCustomerName").val(Name);
+   $("#txtCustomerAddress").val(Address);
+   $("#txtCustomerContNo").val(ConNo);
+   $("#txtCustomerSalary").val(Salary);
+
+  });
+
+      //double click remove table colom
+      $("#tblCustomer>tr").on('dblclick',function (){
+        $(this).remove();
+      });
+
+}
+
+
 
 </script>
 </body>
