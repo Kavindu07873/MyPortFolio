@@ -46,163 +46,166 @@
     </div>
   </nav>
 </header>
-<main>
-  <section>
-    <h1 class="bg-success p-2 text-white bg-opacity-75">Item Details</h1>
-  </section>
+<section style="width: 1524px">
+  <main id="ItemContent" >
+    <section>
+      <h1 class="bg-success p-2 text-white bg-opacity-75">Item Details</h1>
+    </section>
 
 
-  <br>
-  <section>
-    <!-- Button trigger modal -->
-    <button  type="button" class="btn btn-primary  btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      Add New Items
-    </button>
+    <br>
+    <section>
+      <!-- Button trigger modal -->
+      <button  type="button" class="btn btn-primary  btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Add New Items
+      </button>
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Add New Items</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col">
-                <input type="text" class="form-control" placeholder="ItemCode" aria-label="ItemCode">
-              </div>
-              <div class="col">
-                <input type="text" class="form-control" placeholder="ItemName" aria-label="ItemName">
-              </div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Add New Items</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <br>
-            <br>
-            <div class="row">
-              <div class="col">
-                <input type="number" class="form-control" placeholder="Price" aria-label="Price">
+            <div class="modal-body">
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="ItemCode" aria-label="ItemCode">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="ItemName" aria-label="ItemName">
+                </div>
               </div>
-              <div class="col">
-                <input type="number" class="form-control" placeholder="Qty" aria-label="Qty">
+              <br>
+              <br>
+              <div class="row">
+                <div class="col">
+                  <input type="number" class="form-control" placeholder="Price" aria-label="Price">
+                </div>
+                <div class="col">
+                  <input type="number" class="form-control" placeholder="Qty" aria-label="Qty">
+                </div>
+
               </div>
+
+              <br>
+
+              <br>
+              <br>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+
+
+
 
             </div>
-
-            <br>
-
-            <br>
-            <br>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Description</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save</button>
             </div>
-
-
-
-
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save</button>
           </div>
         </div>
       </div>
-    </div>
 
-  </section>
-  <br>
-
-  <section>
-    <div style="width: 90vw" class="row">
-      <div  class="col">
-        <label  for="txtItemCode">Item Code</label>
-
-        <input type="text" id="txtItemCode"  class="form-control d-inline-block" placeholder="I001" aria-label="ID">
-      </div>
-      <div class="col">
-        <label for="txtItemName">Item Name</label>
-
-        <input type="text" id="txtItemName" class="form-control d-inline-block" placeholder="Name" aria-label="Name">
-      </div>
-      <div class="col">
-        <label for="txtItemQuentity">Item Quenty</label>
-
-        <input type="number" id="txtItemQuentity" class="form-control" placeholder="10" aria-label="ContNo">
-      </div>
-      <div class="col">
-        <label for="txtItemPrice">Item Price</label>
-
-        <input type="number" class="form-control" id="txtItemPrice" placeholder="2000.00" aria-label="Salary">
-      </div>
-    </div>
-
+    </section>
     <br>
-    <div class="row">
 
-      <div class="mb-3">
-        <label for="txtItemDescription"  class="form-label">Description</label>
-        <textarea style="width: 80vw" class="form-control" id="txtItemDescription" rows="3"></textarea>
+    <section>
+      <div style="width: 90vw" class="row">
+        <div  class="col">
+          <label  for="txtItemCode">Item Code</label>
+
+          <input type="text" id="txtItemCode"  class="form-control d-inline-block" placeholder="I001" aria-label="ID">
+        </div>
+        <div class="col">
+          <label for="txtItemName">Item Name</label>
+
+          <input type="text" id="txtItemName" class="form-control d-inline-block" placeholder="Name" aria-label="Name">
+        </div>
+        <div class="col">
+          <label for="txtItemQuentity">Item Quenty</label>
+
+          <input type="number" id="txtItemQuentity" class="form-control" placeholder="10" aria-label="ContNo">
+        </div>
+        <div class="col">
+          <label for="txtItemPrice">Item Price</label>
+
+          <input type="number" class="form-control" id="txtItemPrice" placeholder="2000.00" aria-label="Salary">
+        </div>
       </div>
 
+      <br>
+      <div class="row">
+
+        <div class="mb-3">
+          <label for="txtItemDescription"  class="form-label">Description</label>
+          <textarea style="width: 80vw" class="form-control" id="txtItemDescription" rows="3"></textarea>
+        </div>
 
 
-    </div>
-    <br><br>
-    <button type="button" id="SaveItem" class="btn btn-primary">Save</button>
-    <button type="button" class="btn btn-secondary">Remove</button>
-    <button type="button" class="btn btn-success">Update</button>
-    <button type="button" class="btn btn-danger">Delete</button>
-    <button type="button" class="btn btn-warning">Clearall</button>
-    <button type="button" id="LoadItem" class="btn btn-info">getall</button>
-  </section>
-  <br>
-  <br>
+
+      </div>
+      <br><br>
+      <button type="button" id="SaveItem" class="btn btn-primary">Save</button>
+      <button type="button" id="RemoveItem" class="btn btn-secondary">Remove</button>
+      <button type="button" id="UpdateItem" class="btn btn-success">Update</button>
+      <button type="button" id="DeleteItem" class="btn btn-danger">Delete</button>
+      <button type="button" id="ClearItem" class="btn btn-warning">Clearall</button>
+      <button type="button" id="LoadItem" class="btn btn-info">getall</button>
+    </section>
+    <br>
+    <br>
 
 
-  <section>
-    <table style="width: 95%" border="2px solid red"   class="col table table-bordered border-primary table-dark table-striped">
-      <thead>
-      <tr class="table-dark table-striped">
-        <th scope="col">ItemCode</th>
-        <th scope="col">ItemName</th>
-        <th scope="col">Qty</th>
-        <th scope="col">Price</th>
-        <th scope="col">Description</th>
-      </tr>
-      </thead>
-      <tbody  id="tblItem">
-      <tr >
-        <td scope="row">1</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+    <section>
+      <table style="width: 95%" border="2px solid red"   class="col table table-bordered border-primary table-dark table-striped">
+        <thead>
+        <tr class="table-dark table-striped">
+          <th scope="col">ItemCode</th>
+          <th scope="col">ItemName</th>
+          <th scope="col">Qty</th>
+          <th scope="col">Price</th>
+          <th scope="col">Description</th>
+        </tr>
+        </thead>
+        <tbody  id="tblItem">
+        <tr >
+          <td scope="row">1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
 
-      </tr>
-      <tr>
-        <td>2</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
 
-      </tr>
-      <tr>
-        <td>3</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
 
-      </tr>
+        </tr>
 
-      </tbody>
-    </table>
+        </tbody>
+      </table>
 
-  </section>
+    </section>
 
 
-</main>
+  </main>
+
+</section>
 
 
 
@@ -210,60 +213,80 @@
 <script src="../../../../../Assets/Framework/js/jquery-3.6.1.min.js"></script>
 
 <script>
-  // make arry calle customer
-  var Item = [];
+  var  Items  =[];
 
   $("#SaveItem").click(function (){
 
     let  ItemCode = $("#txtItemCode").val();
     let  ItemName = $("#txtItemName").val();
-    let  ItemQty = $("#txtItemQuentity").val();
     let  ItemPrice = $("#txtItemPrice").val();
+    let  ItemQty = $("#txtItemQuentity").val();
     let  ItemDescription = $("#txtItemDescription").val();
 
-    var  ItemObject = {
-      Code : ItemCode,
+    var ItemObject = {
+      id : ItemCode,
       Name : ItemName,
-      Qty : ItemQty,
       Price : ItemPrice,
-      Description : ItemDescription,
+      Qty : ItemQty,
+      Description : ItemDescription
     }
 
-// put object to customer array
+    // put object to item array
+    Items.push(ItemObject);
 
-    Item.push(ItemObject);
-    alert(Item);
     loadAllItemDetails()
+    EventBindingItem();
 
   });
 
   $("#LoadItem").click(function (){
     loadAllItemDetails()
+    EventBindingItem();
   });
-
-
-
   function loadAllItemDetails(){
 
     // remove all data from the table
     $("#tblItem").empty();
 
-    // get all customer records from the array
-    for (var item of Item) {
-      // console.log(customer);// customer object
-
-      // add those data to the table row
-      // var row= "<tr><td>"+customer.id+"</td><td>"+customer.name+"</td><td>"+customer.address+"</td><td>"+customer.salary+"</td></tr>";
-
+    // get all item records from the array
+    for (var item of Items) {
       // Using String Literals to do the same thing as above
-      var row = `<tr><td>${item.Code}</td><td>${item.Name}</td><td>${item.Qty}</td><td>${item.Price}</td><td>${item.Description}</td></tr>`;
+      var rows = `<tr><td>${item.id}</td><td>${item.Name}</td><td>${item.Price}</td><td>${item.Qty}</td><td>${item.Description}</td></tr>`;
 
       //then add it to the table body of customer table
-      $("#tblItem").append(row);
+      $("#tblItem").append(rows);
 
     }
 
   }
+
+
+  //  mehidi table eka click karama data print we
+  function EventBindingItem(){
+    $("#tblItem>tr").click(function (){
+      let id = $(this).children(":eq(0)").text();
+      let Name = $(this).children(":eq(1)").text();
+      let Price = $(this).children(":eq(2)").text();
+      let Qty = $(this).children(":eq(3)").text();
+      let Description = $(this).children(":eq(4)").text();
+
+      //  tble eke textfild walata data add karanawa
+      $("#txtItemCode").val(id);
+      $("#txtItemName").val(Name);
+      $("#txtItemPrice").val(Price);
+      $("#txtItemQuentity").val(Qty);
+      $("#txtItemDescription").val(Description);
+
+    });
+
+    //double click remove table colom
+    $("#tblItem>tr").on('dblclick',function (){
+      $(this).remove();
+    });
+
+  }
+
+
 
 </script>
 </body>

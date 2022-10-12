@@ -264,8 +264,8 @@
 </section>
 
 <!--ItemForm-->
-<section >
-    <main id="ItemContent" style="display: none">
+<section style="width: 1524px">
+    <main id="ItemContent" >
         <section>
             <h1 class="bg-success p-2 text-white bg-opacity-75">Item Details</h1>
         </section>
@@ -368,10 +368,10 @@
             </div>
             <br><br>
             <button type="button" id="SaveItem" class="btn btn-primary">Save</button>
-            <button type="button" class="btn btn-secondary">Remove</button>
-            <button type="button" class="btn btn-success">Update</button>
-            <button type="button" class="btn btn-danger">Delete</button>
-            <button type="button" class="btn btn-warning">Clearall</button>
+            <button type="button" id="RemoveItem" class="btn btn-secondary">Remove</button>
+            <button type="button" id="UpdateItem" class="btn btn-success">Update</button>
+            <button type="button" id="DeleteItem" class="btn btn-danger">Delete</button>
+            <button type="button" id="ClearItem" class="btn btn-warning">Clearall</button>
             <button type="button" id="LoadItem" class="btn btn-info">getall</button>
         </section>
         <br>
@@ -424,6 +424,7 @@
     </main>
 
 </section>
+
 <!--OrderForm-->
 <section >
     <main id="OrdersContent" style="display: none" >
@@ -460,13 +461,13 @@
                         <div class="row">
 
                             <div class="mb-3">
-                                <label for="Customerid" class="form-label text-black">Customerid</label>
-                                <select class="form-label" id="Customerid" aria-label="Default select example">
-                                    <!--                            <option selected>C001</option>-->
-                                    <option value="1">C001</option>
-                                    <option value="2">C002</option>
-                                    <option value="3">C003</option>
-                                </select>                    </div>
+                                <label  class="form-label text-black">Customerid</label>
+                                <select class="form-label" id="CustomerSelectedid" aria-label="Default select example">
+<!--                                    <option value="1">C001</option>-->
+<!--                                    <option value="2">C002</option>-->
+<!--                                    <option value="3">C003</option>-->
+                                </select>
+                            </div>
 
 
                         </div>
@@ -647,19 +648,14 @@
 
 
     </main>
-
 </section>
 
 
-
-
 <script src="../../../Assets/Framework/js/bootstrap.min.js"></script>
-
 <script src="../../../Assets/Framework/js/bootstrap.min.js"></script>
 <script src="../../../Assets/Framework/js/jquery-3.6.1.min.js"></script>
 
 <!--index js-->
-
 <script>
     $("#HomeButton").click(function (){
         $("#OrdersContent").css('display','none');
@@ -717,29 +713,8 @@
 
 </script>
 
-
 <!--Customer js-->
 <script>
-
-
-
-    //  //validation Part eka regular expreshan walin
-    //var CusIdRegEx = /^(C)[0-9]{1,3}$/
-    //
-    //  //make Array for validation
-    //  var CusValidation = [];
-    //  //Add data to validation Arrray
-    //  //mekata data danne object vidiyata
-    //  CusValidation.push({
-    //    reg:CusIdRegEx,
-    //    field : $("#txtCustomerID"),
-    //    error : 'Customer id Paten Is Wrong'
-    //  })
-    //
-    //
-
-
-
 
     // make arry called customer
     var Customer = [];
@@ -761,17 +736,18 @@
             Salary : cusSalary
         }
 
-// put object to customer array
+            // put object to customer array
         Customer.push(CustomerObject);
 
         loadAllCustomerDetails()
         EventBinding();
-
+        loadAllCustomerOption();
     });
 
     $("#LoadAllCustomer").click(function (){
         loadAllCustomerDetails()
         EventBinding();
+        loadAllCustomerOption();
     });
 
     //Enter Button use for textfield
@@ -872,7 +848,101 @@
 
 </script>
 
+<!--Item Js-->
+<script>
+    var  Items  =[];
 
+    $("#SaveItem").click(function (){
+
+        let  ItemCode = $("#txtItemCode").val();
+        let  ItemName = $("#txtItemName").val();
+        let  ItemPrice = $("#txtItemPrice").val();
+        let  ItemQty = $("#txtItemQuentity").val();
+        let  ItemDescription = $("#txtItemDescription").val();
+
+        var ItemObject = {
+            id : ItemCode,
+            Name : ItemName,
+            Price : ItemPrice,
+            Qty : ItemQty,
+            Description : ItemDescription
+        }
+
+        // put object to item array
+        Items.push(ItemObject);
+
+        loadAllItemDetails()
+        EventBindingItem();
+
+    });
+
+    $("#LoadItem").click(function (){
+        loadAllItemDetails()
+        EventBindingItem();
+    });
+    function loadAllItemDetails(){
+
+        // remove all data from the table
+        $("#tblItem").empty();
+
+        // get all item records from the array
+        for (var item of Items) {
+            // Using String Literals to do the same thing as above
+            var rows = `<tr><td>${item.id}</td><td>${item.Name}</td><td>${item.Price}</td><td>${item.Qty}</td><td>${item.Description}</td></tr>`;
+
+            //then add it to the table body of customer table
+            $("#tblItem").append(rows);
+
+        }
+
+    }
+
+
+    //  mehidi table eka click karama data print we
+    function EventBindingItem(){
+        $("#tblItem>tr").click(function (){
+            let id = $(this).children(":eq(0)").text();
+            let Name = $(this).children(":eq(1)").text();
+            let Price = $(this).children(":eq(2)").text();
+            let Qty = $(this).children(":eq(3)").text();
+            let Description = $(this).children(":eq(4)").text();
+
+            //  tble eke textfild walata data add karanawa
+            $("#txtItemCode").val(id);
+            $("#txtItemName").val(Name);
+            $("#txtItemPrice").val(Price);
+            $("#txtItemQuentity").val(Qty);
+            $("#txtItemDescription").val(Description);
+
+        });
+
+        //double click remove table colom
+        $("#tblItem>tr").on('dblclick',function (){
+            $(this).remove();
+        });
+
+    }
+
+
+
+</script>
+
+<!--OrderForm js-->
+<script>
+
+
+    function loadAllCustomerOption(){
+
+        $("#CustomerSelectedid").empty();
+        for (let customer of Customer) {
+           let raw =<option value="1">${customer.id}</option>
+            // var raw =<option>${customer.id}</option>
+            $("#CustomerSelectedid").append(raw);
+
+        }
+    }
+
+</script>
 
 </body>
 </html>
