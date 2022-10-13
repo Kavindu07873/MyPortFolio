@@ -40,9 +40,9 @@ $("#LoadAllCustomer").click(function (){
 //Enter Button use for textfield
 $("#txtCustomerID").on('keydown',function (event){
 
-    // if (event.key == "Enter"){
-    //     $("#txtCustomerName").focus();
-    // }
+    if (event.key == "Enter"){
+        $("#txtCustomerName").focus();
+    }
 
 });
 
@@ -76,7 +76,6 @@ $("#txtCustomerSalary").on('keydown',function (event){
         confirm("Do You Want To Add This Customer...?")
         $("#SaveCustomer").focus();
     }
-
 });
 
 // Tap Button Remove
@@ -87,6 +86,33 @@ $("#txtCustomerID,#txtCustomerName,#txtCustomerContNo,#txtCustomerAddress,#txtCu
     }
 });
 
+$("#txtCustomerID").on('keydown',function (event){
+    if (event.code == "Enter"){
+        let typeid = $("#txtCustomerID").val();
+        let customer = SearchCustomer(typeid);
+
+        if (customer != null){
+            // $("#txtCustomerID").val(customer.id);
+            // $("#txtCustomerName").val(customer.Name);
+            // $("#txtCustomerAddress").val(customer.Address);
+            // $("#txtCustomerContNo").val(customer.ConNo);
+            // $("#txtCustomerSalary").val(customer.Salary);
+        setTextfieldValue(customer.id,customer.Name,customer.Address,customer.ConNo,customer.Salary)
+
+        }else {
+            alert("error");
+        }
+
+    }
+})
+
+// DeleteCustomer
+$("#DeleteCustomer").click(function (){
+     let deleteid = $("#txtCustomerID").val();
+
+    DeleteCustomer(deleteid);
+
+})
 
 function loadAllCustomerDetails(){
 
@@ -104,7 +130,6 @@ function loadAllCustomerDetails(){
     }
 
 }
-
 
 //  mehidi table eka click karama data print we
 function EventBinding(){
@@ -130,25 +155,15 @@ function EventBinding(){
     });
 
 }
+//setTextfieldValue
+function setTextfieldValue(id , Name , Address ,ConNo , Salary){
+    $("#txtCustomerID").val(id);
+    $("#txtCustomerName").val(Name);
+    $("#txtCustomerAddress").val(Address);
+    $("#txtCustomerContNo").val(ConNo);
+    $("#txtCustomerSalary").val(Salary);
+}
 
-$("#txtCustomerID").on('keyup',function (event){
-    if (event.code == "Enter"){
-        let typeid = $("#txtCustomerID").val();
-        let customer = SearchCustomer(typeid);
-
-        if (customer != null){
-            $("#txtCustomerID").val(customer.id);
-            $("#txtCustomerName").val(customer.Name);
-            $("#txtCustomerAddress").val(customer.Address);
-            $("#txtCustomerContNo").val(customer.ConNo);
-            $("#txtCustomerSalary").val(customer.Salary);
-
-        }else {
-            alert("error");
-        }
-
-    }
-})
 //Search customer
 function SearchCustomer(cusid){
     for (let customer  of Customer) {
@@ -158,3 +173,22 @@ function SearchCustomer(cusid){
     }
 return null;
 }
+
+//Delete Customers
+function DeleteCustomer(cusid){
+   let customer =  SearchCustomer(cusid);
+
+   if(customer != null){
+       let IndexNum = Customer.indexOf(customer);
+        Customer.splice(IndexNum,1);
+        loadAllCustomerDetails();
+       return true;
+   }else {
+       return false
+   }
+
+
+
+
+}
+

@@ -89,9 +89,9 @@ function loadAllCartDetails(){
 
 
         }
+
+
 }
-
-
 
 
 
@@ -109,8 +109,6 @@ function CalculationTotal(){
     }
 
 }
-
-
 
 function clearAll(){
     $("#txtCustomerSalary").val("")

@@ -22,6 +22,7 @@ $("#SaveItem").click(function (){
     loadAllItemDetails()
     EventBindingItem();
     loadItemIDOption();
+    clearAll();
 
 });
 
@@ -29,6 +30,8 @@ $("#LoadItem").click(function (){
     loadAllItemDetails()
     EventBindingItem();
     loadItemIDOption();
+    clearAll();
+
 });
 function loadAllItemDetails(){
 
@@ -46,7 +49,6 @@ function loadAllItemDetails(){
     }
 
 }
-
 
 //  mehidi table eka click karama data print we
 function EventBindingItem(){
@@ -101,3 +103,147 @@ function SearchItem(ItemCode){
     }
         return null;
 }
+//delete Item
+function deleteItem(){
+          let item = SearchItem(ItemCode);
+
+            if(item != null){
+                let indexnum = Items.indexOf(item);
+                Items.splice(indexnum,1);
+                loadAllItemDetails();
+                return true;
+            }
+            else {
+                    return false;
+            }
+}
+
+$("#DeleteItem").click(function (){
+
+            let deleteitemid = $("#ItemCode").val();
+            deleteItem(deleteitemid)
+
+        })
+
+//Enter Button use for textfield
+$("#txtItemCode").on('keydown',function (event){
+
+    if (event.key == "Enter"){
+        $("#txtItemName").focus();
+    }
+
+});
+
+$("#txtItemName").on('keydown',function (event){
+
+    if (event.key == "Enter"){
+        $("#txtItemQuentity").focus();
+    }
+
+});
+
+$("#txtItemQuentity").on('keydown',function (event){
+
+    if (event.key == "Enter"){
+        $("#txtItemPrice").focus();
+    }
+
+});
+
+$("#txtItemPrice").on('keydown',function (event){
+
+    if (event.key == "Enter"){
+        $("#txtItemDescription").focus();
+    }
+
+});
+
+$("#txtItemDescription").on('keydown',function (event){
+
+    if (event.key == "Enter"){
+        confirm("Do You Want To Add This Customer...?")
+        $("#SaveItem").focus();
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
