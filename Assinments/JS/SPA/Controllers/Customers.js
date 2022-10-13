@@ -26,12 +26,15 @@ $("#SaveCustomer").click(function (){
     EventBinding();
     loadCustomersIDOption()
     SearchCustomer();
+    clearAll();
+
 });
 
 $("#LoadAllCustomer").click(function (){
     loadAllCustomerDetails()
     EventBinding();
     loadCustomersIDOption()
+    clearAll();
 });
 
 //Enter Button use for textfield
