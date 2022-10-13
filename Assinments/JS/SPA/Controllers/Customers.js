@@ -25,6 +25,7 @@ $("#SaveCustomer").click(function (){
     loadAllCustomerDetails()
     EventBinding();
     loadCustomersIDOption()
+    SearchCustomer();
 });
 
 $("#LoadAllCustomer").click(function (){
@@ -36,9 +37,9 @@ $("#LoadAllCustomer").click(function (){
 //Enter Button use for textfield
 $("#txtCustomerID").on('keydown',function (event){
 
-    if (event.key == "Enter"){
-        $("#txtCustomerName").focus();
-    }
+    // if (event.key == "Enter"){
+    //     $("#txtCustomerName").focus();
+    // }
 
 });
 
@@ -127,3 +128,30 @@ function EventBinding(){
 
 }
 
+$("#txtCustomerID").on('keyup',function (event){
+    if (event.code == "Enter"){
+        let typeid = $("#txtCustomerID").val();
+        let customer = SearchCustomer(typeid);
+
+        if (customer != null){
+            $("#txtCustomerID").val(customer.id);
+            $("#txtCustomerName").val(customer.Name);
+            $("#txtCustomerAddress").val(customer.Address);
+            $("#txtCustomerContNo").val(customer.ConNo);
+            $("#txtCustomerSalary").val(customer.Salary);
+
+        }else {
+            alert("error");
+        }
+
+    }
+})
+//Search customer
+function SearchCustomer(cusid){
+    for (let customer  of Customer) {
+        if(customer.id == cusid){
+            return customer
+        }
+    }
+return null;
+}

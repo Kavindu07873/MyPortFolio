@@ -461,10 +461,8 @@
                         <div class="row">
 
                             <div class="mb-3">
-                                <label  class="form-label text-black">Customerid</label>
-                                <select class="form-label" id="Cusselectid" >
-<!--                                    <option >C001</option>-->
-                                </select>
+                                <label  for="Cusselectid" class="form-label text-black">Customerid</label>
+                                <select class="form-label" id="Cusselectid" ></select>
                             </div>
 
 
@@ -474,20 +472,20 @@
                         <div class="d-flex justify-content-evenly">
 
                             <div class="mb-3">
-                                <label for="Name" id="CusShowName" class="form-label text-black">Name</label>
-                                <input type="text" class="form-control" id="Name" placeholder="Kamal">
+                                <label for="CusSeleName" id="CusShowName" class="form-label text-black">Name</label>
+                                <input type="text" class="form-control" id="CusSeleName" placeholder="Kamal">
                             </div>
 
 
                             <div class="mb-3">
-                                <label for="ContNo" class="form-label text-black">ContNo</label>
-                                <input type="number" class="form-control" id="ContNo" placeholder="+9477153032" >
+                                <label for="CusSeleCon" class="form-label text-black">ContNo</label>
+                                <input type="number" class="form-control" id="CusSeleCon" placeholder="+9477153032" >
                             </div>
 
 
                             <div class="mb-3">
-                                <label for="Address" class="form-label text-black">Address</label>
-                                <input type="text" class="form-control" id="Address" placeholder="Galle">
+                                <label for="CusSeleAdress" class="form-label text-black">Address</label>
+                                <input type="text" class="form-control" id="CusSeleAdress" placeholder="Galle">
                             </div>
                         </div>
                     </div>
@@ -715,85 +713,7 @@
 <script src="Controllers/Customers.js"></script>
 
 <!--Item Js-->
-<script>
-    var  Items  =[];
-
-    $("#SaveItem").click(function (){
-
-        let  ItemCode = $("#txtItemCode").val();
-        let  ItemName = $("#txtItemName").val();
-        let  ItemPrice = $("#txtItemPrice").val();
-        let  ItemQty = $("#txtItemQuentity").val();
-        let  ItemDescription = $("#txtItemDescription").val();
-
-        var ItemObject = {
-            id : ItemCode,
-            Name : ItemName,
-            Price : ItemPrice,
-            Qty : ItemQty,
-            Description : ItemDescription
-        }
-
-        // put object to item array
-        Items.push(ItemObject);
-
-        loadAllItemDetails()
-        EventBindingItem();
-        loadItemIDOption();
-
-    });
-
-    $("#LoadItem").click(function (){
-        loadAllItemDetails()
-        EventBindingItem();
-        loadItemIDOption();
-    });
-    function loadAllItemDetails(){
-
-        // remove all data from the table
-        $("#tblItem").empty();
-
-        // get all item records from the array
-        for (var item of Items) {
-            // Using String Literals to do the same thing as above
-            var rows = `<tr><td>${item.id}</td><td>${item.Name}</td><td>${item.Price}</td><td>${item.Qty}</td><td>${item.Description}</td></tr>`;
-
-            //then add it to the table body of customer table
-            $("#tblItem").append(rows);
-
-        }
-
-    }
-
-
-    //  mehidi table eka click karama data print we
-    function EventBindingItem(){
-        $("#tblItem>tr").click(function (){
-            let id = $(this).children(":eq(0)").text();
-            let Name = $(this).children(":eq(1)").text();
-            let Price = $(this).children(":eq(2)").text();
-            let Qty = $(this).children(":eq(3)").text();
-            let Description = $(this).children(":eq(4)").text();
-
-            //  tble eke textfild walata data add karanawa
-            $("#txtItemCode").val(id);
-            $("#txtItemName").val(Name);
-            $("#txtItemPrice").val(Price);
-            $("#txtItemQuentity").val(Qty);
-            $("#txtItemDescription").val(Description);
-
-        });
-
-        //double click remove table colom
-        $("#tblItem>tr").on('dblclick',function (){
-            $(this).remove();
-        });
-
-    }
-
-
-
-</script>
+<script src="Controllers/Items.js"></script>
 
 <!--OrderForm js-->
 <script src="Controllers/Orders.js"></script>
