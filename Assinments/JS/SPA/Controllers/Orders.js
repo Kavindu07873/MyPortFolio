@@ -84,15 +84,55 @@ function loadAllCartDetails(){
         var raw = `<tr><td>${order.Code}</td><td>${order.Name}</td><td>${order.Price}</td><td>${order.Qty}</td><td>${order.TotalPrice}</td></tr>`;
 
         $("#tblCart").append(raw);
-
         CalculationTotal();
-
-
         }
-
-
 }
 
+
+//enter button set
+$("#OrderQty").on('keydown',function (event) {
+    if (event.key == "Enter") {
+        $("#AddItemTotheCart").focus();
+    }
+});
+$("#AddItemTotheCart").on('keydown',function (event){
+    if (event.key == "Enter"){
+        $("#Cash").focus();
+    }
+});
+$("#Cash").on('keydown',function (event){
+    if (event.key == "Enter"){
+        $("#Discount").focus();
+    }
+});
+
+
+//Balance eka hadanawa
+$("#Cash").on('keydown ',function(event){
+    if (event.key == "Enter") {
+       let Money = $("#Cash").val();
+        let CashOnHand = parseFloat(Money);
+
+       let AllPrice  =$("#TotalPriceAll").val();
+            let TOTAL = parseFloat(AllPrice);
+
+let Balance = (CashOnHand - TOTAL)
+       $("#Balance").val(Balance)
+
+//discount ona nm
+       if(parseFloat($("#Discount").val())>0){
+           let discount  = $("#Balance").val();
+           let disc = parseFloat(discount);
+
+           let x = parseFloat($("#Discount").val())
+
+           let newPri  =(disc * x)/100
+           let discPrice = parseFloat(newPri);
+           let NewPrice=(discPrice - Balance)
+           $("#Balance").val(NewPrice);
+       }
+    }
+});
 
 
 function CalculationTotal(){
@@ -137,7 +177,4 @@ function clearAll(){
     // $("").val("")
     // $("").val("")
     // $("").val("")
-
-
-
 }
