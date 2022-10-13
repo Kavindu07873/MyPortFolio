@@ -5,6 +5,45 @@
     <title>SPA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../../Assets/Framework/css/bootstrap.min.css">
+<!--and (min-width: 320px)-->
+<style>
+    @media all and (max-width:376px){
+    #DashBoardContent>section{
+        border: 2px solid red;
+        display: inline-block;
+    }
+        #DashBoardContent>section>div{
+            display: inline;
+        }
+        #ItemDetailsImg{
+            width: 100px;
+            height: 80px;
+        }
+        #CustomerDetailsImg{
+            width: 100px;
+            height: 80px;
+        }
+        }
+    @media all and (max-width:426px){
+        #DashBoardContent>section{
+            border: 2px solid red;
+            display: inline-block;
+            width: 98vw;
+        }
+        #DashBoardContent>section>div{
+            display: inline;
+        }
+        #ItemDetailsImg{
+            width: 100px;
+            height: 80px;
+        }
+        #CustomerDetailsImg{
+            width: 100px;
+            height: 80px;
+        }
+    }
+</style>
+
 </head>
 <body>
 <header>
@@ -63,7 +102,8 @@
                             <img id="ItemDetailsImg" style="width: 300px" height="250px" src="Assets/lost-items-line-vector-icon-260nw-1436787446.webp" alt="gitHub">
                         </a>
                     </div>
-                </div>      </div>
+                </div>
+            </div>
             <div class="col-4">
                 <div class="d-flex flex-column mb-3">
                     <div class="p-2">
@@ -81,12 +121,8 @@
             </div>
         </div>
 
-
         <div class="container text-center">
             <div class="row">
-
-
-
                 <div class="d-flex flex-column mb-3">
                     <div class="p-2">
                         <h1> <span class="badge bg-secondary"></span>Place Order</h1>
@@ -98,16 +134,10 @@
                     </div>
 
                 </div>
-
-
-
             </div>
         </div>
 
     </section>
-
-
-
 
 </main>
 
@@ -264,8 +294,8 @@
 </section>
 
 <!--ItemForm-->
-<section style="width: 1524px">
-    <main id="ItemContent" >
+<section >
+    <main id="ItemContent"  style="display: none">
         <section>
             <h1 class="bg-success p-2 text-white bg-opacity-75">Item Details</h1>
         </section>
@@ -356,9 +386,8 @@
             </div>
 
             <br>
-            <div class="row">
-
-                <div class="mb-3">
+            <div class="row" style="width: 50vw">
+                <div class="mb-3" >
                     <label for="txtItemDescription"  class="form-label">Description</label>
                     <textarea style="width: 80vw" class="form-control" id="txtItemDescription" rows="3"></textarea>
                 </div>
