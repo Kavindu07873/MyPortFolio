@@ -612,7 +612,7 @@
                         </div>
 
                         <div class="text-end">
-                            <button type="button" class="btn btn-success  btn-lg">Purchase</button>
+                            <button type="button" id="PerchaseOrder" class="btn btn-success  btn-lg">Purchase</button>
 
                         </div>
 
@@ -624,7 +624,7 @@
             </div>
         </section>
         <br>
-        <section>
+        <section id="tbl1" style="display: none"  >
             <table style="width: 100%" border="2px solid red"   class="col table table-bordered border-primary table-dark  table-striped">
                 <thead>
                 <tr class="table-dark table-striped">
@@ -666,7 +666,54 @@
             </table>
 
         </section>
+        <section id="tbl2" STYLE="display: none" >
+            <table style="width: 100%" border="2px solid red"   class="col table table-bordered border-primary table-dark  table-striped">
+                <thead>
+                <tr class="table-dark table-striped">
+                    <th scope="col">Date</th>
+                    <th scope="col">OrderId</th>
+                    <th scope="col">CustomerId</th>
+                    <th scope="col">TotalPrice</th>
+                    <th scope="col">Cash</th>
+                    <th scope="col">Balance</th>
 
+                </tr>
+                </thead>
+                <tbody id="tblOrderDetails" >
+                <tr >
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                </tbody>
+            </table>
+
+        </section>
 
     </main>
 </section>
@@ -742,5 +789,12 @@
 
 <!--OrderForm js-->
 <script src="Controllers/Orders.js"></script>
+<script src="Controllers/OrderDetails.js"></script>
+
+<!--database set-->
+<script src="db/Databases.js"></script>
+
+<!--models set-->
+<script src="Model/OrderDetailsModel.js"></script>
 </body>
 </html>

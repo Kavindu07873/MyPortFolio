@@ -166,6 +166,12 @@ $("#txtItemDescription").on('keydown',function (event){
     }
 });
 
+$("#SaveItem").on('keydown',function (event){
+
+    if (event.key == "Enter"){
+        $("#txtItemCode").focus();
+    }
+});
 
 
 

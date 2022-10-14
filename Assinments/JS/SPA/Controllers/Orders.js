@@ -1,10 +1,11 @@
-
 //Customer details
 function loadCustomersIDOption() {
     $("#Cusselectid").empty();
     for (let cus of Customer) {
         $("#Cusselectid").append(`<option>${cus.id}</option>`);
     }
+    Autogenaraeorderid();
+
 }
 $('#Cusselectid').on('change',function (){
 
@@ -47,19 +48,22 @@ $('#ItemCode').on('change',function (){
     }
 })
 
-
-
 //Create Array called Orders
     var Orders = []
 //add data to cart
 $("#AddItemTotheCart").click(function (){
+
+    $("#tbl2").css('display','none')
+    $("#tbl1").css('display','block');
+
+
+
 
     let Pro_code =$("#ItemCode").val()
     let Pro_Name = $("#ItemName").val()
     let Price = $("#Price").val()
     let Qtys = $("#OrderQty").val()
     // let ItemPrice = ( paresent* Price);
-
    let  ItemPrice    = parseInt(Price)*parseInt(Qtys)
 
     var CartOblect = {
@@ -73,6 +77,10 @@ $("#AddItemTotheCart").click(function (){
 
     Orders.push(CartOblect);
 
+//Qty eka wenas karanna ona
+    let y = parseFloat($("#QtyOnHand").val());
+   let z =  (y - Qtys)
+    $("#QtyOnHand").val(z);
     loadAllCartDetails();
 
 })
@@ -97,12 +105,12 @@ $("#OrderQty").on('keydown',function (event) {
 });
 $("#AddItemTotheCart").on('keydown',function (event){
     if (event.key == "Enter"){
-        $("#Cash").focus();
+        $("#Discount").focus();
     }
 });
-$("#Cash").on('keydown',function (event){
+$("#Discount").on('keydown',function (event){
     if (event.key == "Enter"){
-        $("#Discount").focus();
+        $("#Cash").focus();
     }
 });
 
@@ -128,7 +136,7 @@ let Balance = (CashOnHand - TOTAL)
 
            let newPri  =(disc * x)/100
            let discPrice = parseFloat(newPri);
-           let NewPrice=(discPrice - Balance)
+           let NewPrice=(Balance - discPrice)
            $("#Balance").val(NewPrice);
        }
     }
@@ -149,6 +157,20 @@ function CalculationTotal(){
     }
 
 }
+function Autogenaraeorderid(){
+    let id ="D00001";
+    let i = 0;
+        while(i<100){
+             id = ("D"+i)
+            i++;
+        }
+        if(i<100){
+
+        }
+    $("#OrderId").val(id);
+    // $("#OrderId").val().remove();
+}
+
 
 function clearAll(){
     $("#txtCustomerSalary").val("")
@@ -168,7 +190,7 @@ function clearAll(){
     $("#ItemName").val("")
     $("#Price").val("")
     $("#QtyOnHand").val("")
-    // $("").val("")
+    $("#OrderId").val("")
     // $("").val("")
     // $("").val("")
     // $("").val("")

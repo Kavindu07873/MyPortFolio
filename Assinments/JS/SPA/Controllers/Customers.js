@@ -78,6 +78,15 @@ $("#txtCustomerSalary").on('keydown',function (event){
     }
 });
 
+$("#SaveCustomer").on('keydown',function (event){
+
+    if (event.key == "Enter"){
+        $("#txtCustomerID").focus();
+    }
+});
+
+
+
 // Tap Button Remove
 $("#txtCustomerID,#txtCustomerName,#txtCustomerContNo,#txtCustomerAddress,#txtCustomerSalary").on('keydown' , function (event){
 
