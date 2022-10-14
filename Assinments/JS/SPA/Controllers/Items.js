@@ -1,4 +1,3 @@
-var  Items  =[];
 
 $("#SaveItem").click(function (){
 

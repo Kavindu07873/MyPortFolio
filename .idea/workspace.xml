@@ -9,7 +9,12 @@
       <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Controllers/Customers.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/JS/SPA/Controllers/Customers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Controllers/Items.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/JS/SPA/Controllers/Items.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Controllers/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/JS/SPA/Controllers/Orders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/JS/SPA/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Model/CustomerModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Model/ItemModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Model/OrderDetailsModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Model/OrdersModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Model/jsModels.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/db/Databases.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/JS/SPA/db/Databases.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +192,7 @@
       <workItem from="1665484236854" duration="442000" />
       <workItem from="1665486866504" duration="48212000" />
       <workItem from="1665661774458" duration="14510000" />
-      <workItem from="1665714907549" duration="3204000" />
+      <workItem from="1665714907549" duration="4341000" />
     </task>
     <servers />
   </component>

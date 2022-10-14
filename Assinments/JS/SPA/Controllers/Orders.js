@@ -48,8 +48,7 @@ $('#ItemCode').on('change',function (){
     }
 })
 
-//Create Array called Orders
-    var Orders = []
+
 //add data to cart
 $("#AddItemTotheCart").click(function (){
 

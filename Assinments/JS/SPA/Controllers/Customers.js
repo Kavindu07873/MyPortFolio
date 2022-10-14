@@ -1,6 +1,5 @@
 
 // make arry called customer
-var Customer = [];
 
 
 $("#SaveCustomer").click(function (){
