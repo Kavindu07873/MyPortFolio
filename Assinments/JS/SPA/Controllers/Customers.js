@@ -9,17 +9,27 @@ $("#SaveCustomer").click(function (){
     let  cusAddress = $("#txtCustomerAddress").val();
     let  cusConNo = $("#txtCustomerContNo").val();
     let  cusSalary = $("#txtCustomerSalary").val();
+    //
 
-    var CustomerObject = {
-        id : cusid,
-        Name : cusName,
-        Address : cusAddress,
-        ConNo : cusConNo,
-        Salary : cusSalary
-    }
+
+        var NewObject = Object.assign({},CustomerObject);
+        NewObject.id=cusid;
+        NewObject.Name=cusName;
+        NewObject.Address=cusAddress;
+        NewObject.ConNo=cusConNo;
+        NewObject.Salary=cusSalary;
+
+    // var NewObject = {
+    //
+    //     // id : cusid,
+    //     // Name : cusName,
+    //     // Address : cusAddress,
+    //     // ConNo : cusConNo,
+    //     // Salary : cusSalary
+    // }
 
     // put object to customer array
-    Customer.push(CustomerObject);
+    Customer.push(NewObject);
 
     loadAllCustomerDetails()
     EventBinding();

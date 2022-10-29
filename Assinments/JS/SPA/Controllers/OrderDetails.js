@@ -24,7 +24,10 @@ OrderDetails.push(OrderDetailsObject);
 loadAllOrderdetails()
     alert("Do you want to add data to the Order Details Table")
     Autogenaraeorderid();
+    doubleclick();
 })
+
+
 
 function loadAllOrderdetails(){
     $("#tblOrderDetails").empty()
@@ -33,4 +36,13 @@ function loadAllOrderdetails(){
         $("#tblOrderDetails").append(ods);
 
     }
+}
+
+function doubleclick(){
+    $("#tblOrderDetails>tr").on('dblclick',function (){
+        $(this).remove();
+    });
+    $("#tblCart>tr").on('dblclick',function (){
+        $(this).remove();
+    });
 }

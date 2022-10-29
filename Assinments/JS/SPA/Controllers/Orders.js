@@ -81,7 +81,7 @@ $("#AddItemTotheCart").click(function (){
    let z =  (y - Qtys)
     $("#QtyOnHand").val(z);
     loadAllCartDetails();
-
+doubleclick();
 })
 
 function loadAllCartDetails(){

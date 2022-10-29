@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da8755b6-380d-458a-94e9-c184f787230b" name="Changes" comment="">
+    <list default="true" id="da8755b6-380d-458a-94e9-c184f787230b" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/CSS/Animation/Case4/Case4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/CSS/Animation/Case4/Case4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Controllers/Customers.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/JS/SPA/Controllers/Customers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Controllers/Items.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/JS/SPA/Controllers/Items.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Controllers/OrderDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/JS/SPA/Controllers/OrderDetails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Controllers/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/JS/SPA/Controllers/Orders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Model/CustomerModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Model/ItemModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Model/OrderDetailsModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Model/OrdersModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/Model/jsModels.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/db/Databases.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/JS/SPA/db/Databases.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assinments/JS/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assinments/JS/SPA/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style/MainSection/Education.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/MainSection/Education.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style/MainSection/Galary.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/MainSection/Galary.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -42,27 +49,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Project/DOG PARADISE Semester Project(ALL)&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Project/DOG PARADISE Semester Project(ALL)" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\JS\SPA" />
@@ -72,14 +69,17 @@
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Animation\Case4\asset" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Assinment" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\FrameWork\Pos\Page" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assinments\CSS\Animation\Case2" />
       <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\Portfolio_img" />
-      <recent name="E:\2ND SEMESTER\InternateExplorer\Internet Tecnologie\MyPortFolio\MyPortFolio\Assets\PortfolioImg" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="da8755b6-380d-458a-94e9-c184f787230b" name="Changes" comment="" />
@@ -192,7 +192,36 @@
       <workItem from="1665484236854" duration="442000" />
       <workItem from="1665486866504" duration="48212000" />
       <workItem from="1665661774458" duration="14510000" />
-      <workItem from="1665714907549" duration="4341000" />
+      <workItem from="1665714907549" duration="4355000" />
+      <workItem from="1665719827401" duration="648000" />
+      <workItem from="1665737707172" duration="13000" />
+      <workItem from="1665737734237" duration="40000" />
+      <workItem from="1665737877995" duration="1407000" />
+      <workItem from="1665800456711" duration="1454000" />
+      <workItem from="1665804802350" duration="6707000" />
+      <workItem from="1665932710775" duration="476000" />
+      <workItem from="1665933457123" duration="35000" />
+      <workItem from="1665934010534" duration="57000" />
+      <workItem from="1665934341960" duration="67000" />
+      <workItem from="1665976153861" duration="57000" />
+      <workItem from="1665976335038" duration="404000" />
+      <workItem from="1665977710089" duration="704000" />
+      <workItem from="1665978749872" duration="10000" />
+      <workItem from="1665978893373" duration="24000" />
+      <workItem from="1665984511308" duration="1837000" />
+      <workItem from="1666068400899" duration="58000" />
+      <workItem from="1666068494277" duration="1107000" />
+      <workItem from="1666069705361" duration="536000" />
+      <workItem from="1666096972904" duration="31000" />
+      <workItem from="1666158799643" duration="583000" />
+      <workItem from="1666195432199" duration="1242000" />
+      <workItem from="1666406117978" duration="4168000" />
+      <workItem from="1666521334463" duration="1234000" />
+      <workItem from="1666579400419" duration="1535000" />
+      <workItem from="1666599833562" duration="700000" />
+      <workItem from="1666608165327" duration="73000" />
+      <workItem from="1666609060479" duration="1669000" />
+      <workItem from="1666933761426" duration="442000" />
     </task>
     <servers />
   </component>
@@ -209,5 +238,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
